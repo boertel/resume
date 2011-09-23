@@ -1,0 +1,119 @@
+{
+    "title":"Software Engineer",
+    "image":"",
+    "name":"Benjamin Oertel",
+    "personal": {
+        "location": [
+            {"key":"live","value":"<span>Lives in</span> Palo Alto, CA, USA"},
+            {"key":"from","value":"<span>From</span> Nantes, France"}
+        ],
+        "contact": [
+            {"key":"skype","value":"ben.oertel <small>(Skype)</small>"},
+            {"key":"","value":"+1 (650) 739-6361"},
+            {"key":"email","value":"benjamin.oertel@gmail.com"}
+        ],
+        "other": [
+            {"key":"birthday","value":"26 November 1988"},
+            {"key":"","value":"Driver license"}
+        ]
+    },
+    "education": {
+        "title":"Education",
+        "key":"education",
+        "experience": [
+            {
+                "key":"erasmus",
+                "date":"Fall 2010",
+                "title":"<strong>One semester, Erasmus Program</strong>",
+                "place":"<em>Linnæus University, Växjö, Sweden</em>",
+                "value":["<em>Courses</em> : Object Oriented C#, Software from Components, Web services and Applied Program Analysis."]
+            },
+            {
+                "key":"polytech",
+                "date":"2008 - 2011",
+                "title":"<strong>School of Computer Science and Engineering</strong>",
+                "place":"<em>Polytechnic School of Nantes University, France</em>",
+                "value":["<em>Project</em> : Creation of a Microsoft Exchange plug-in for YouSendIt."]
+            },
+            {
+                "key":"polytech",
+                "date":"2006 - 2008",
+                "title":"<strong>Two-year degree in Computer Science</strong>",
+                "place":"<em>University Institute of Technology, Nantes, France</em>",
+                "value":["<em>Project</em> : Website for a sport association using PHP and MySQL."]
+            },
+            {
+                "key":"",
+                "date":"2006 - 2008",
+                "title":"<strong>Scientific Baccalauréat (French High School Diploma)</strong>",
+                "place":"<em>Lycée Jeanne d'Arc, Montaigu, France</em>"
+            }
+        ]
+    },
+    "computer": {
+        "title":"Computer Skills",
+        "key":"computer",
+        "skill": [
+            {"key":"programming","title":"Programming Languages","value":"Python, Java, C#, C++, Objective-C, C, Ada"},
+            {"key":"web","title":"Web Technologies","value":"php, jsp, javascript (pure and librairies), html, css"},
+            {"key":"framework","title":"Frameworks","value":"Django, Hibernate, Spring, Struts 2, JEE"},
+            {"key":"database","title":"Databases","value":"Mongo DB, MySQL, Oracle, SQL Server, Access"},
+            {"key":"","title":"Specifications","value":"UML, Merise"},
+            {"key":"os","title":"Operating Systems","value":"Mac OS X, Unix/Linux, Windows"},
+            {"key":"ide","title":"Development Environments","value":"Eclipse, Visual Studio, Xcode"},
+            {"key":"tools","title":"Tools","value":"LaTeX, vim, git"},
+            {"key":"","title":"Applications","value":"Adobe Photoshop, Microsoft Office/iWork"}
+        ]
+     },
+    "professional": {
+        "title":"Professional Experiences",
+        "key":"professional",
+        "experience": [
+            {
+                "key":"punchtab",
+                "date":"September 2011 to now",
+                "title":"<strong>Software Engineer</strong>",
+                "place":"PunchTab, <em>Palo Alto, CA, USA</em>",
+                "value":["Working on the backend of Punchtab.com with the APIs and databases"]
+            },
+            {
+                "key":"punchtab_intern",
+                "date":"March to Sep. 2011",
+                "title":"<strong>Software Engineer Intern</strong>",
+                "place":"PunchTab, <em>Menlo Park, CA, USA</em>",
+                "value":["Working on the backend of Punchtab.com with the APIs and databases"]
+            },
+            {
+                "key":"dawan",
+                "date":"June to August 2011",
+                "title":"<strong>Developer Intern in an IT company</strong>",
+                "place":"Dawan, <em>Nantes, France</em>",
+                "value":["Integration in a development team and work on an e-commerce website using Java/JEE."]
+            },
+            {
+                "key":"",
+                "date":"April to July 2008",
+                "title":"<strong>Intern in an IT Department</strong>",
+                "place":"Sermat, <em>Montaigu, France</em>",
+                "value":["Microsoft Access softwares using SQL Server","Use of Visual FoxPro database to create a file to supply a production machine","Daily maintenance of employees computer problems"]
+            }
+        ]
+    },
+    "language": {
+        "title":"Languages",
+        "key":"language",
+        "skill": [
+            {"key":"french","title":"French","value":"mother tongue<span class=\"hidden\"> - Aller à la version francaise</span>"},
+            {"key":"english","title":"English","value":"fluent (studied for 11 years)<span class=\"hidden\"> - Switch to the English version</span>"},
+            {"key":"","title":"German","value":"read & write (studied for 9 years)<span class=\"hidden\"> - Zur deutschen Version</span>"}
+        ]
+     },
+    "interest": {
+        "title":"Interests",
+        "key":"interest",
+        "skill": [
+            {"key":"graphism","title":"Graphism","value":"design, web design, user interface, drawing"},
+            {"key":"","title":"Sport","value":"tennis (competition) and most of racket sports"}
+        ]
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "title":"Find me on Internet",
+    "text":"",
+    "link":[
+        {"title":"twitter/boertel", "url":"http://www.twitter.com/boertel"},
+        {"title":"facebook/benjamin.oertel", "url":"http://www.facebook.com/benjamin.oertel"},
+        {"title":"github/boertel", "url":"http://www.github.com/boertel"},
+        {"title":"dribbble/boertel (spectator)", "url":"http://www.dribbble.com/boertel"},
+        {"title":"I've got a Google +1 account but who cares ?"}
+    ]
+}
