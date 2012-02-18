@@ -1,7 +1,7 @@
 body {
     background-image: url('../img/bg.gif');
     color: #333;
-    font-size: 10.5pt;
+    font-size: 11.0pt;
     margin: 8px;
     font-family: Georgia, Serif;
 }
@@ -22,6 +22,9 @@ a:hover {
 span {
     color: #666;
 }
+small {
+    font-size: 9.0pt;
+}
 h1, h2, h3 {
 	font-family: "Book Antiqua", Georgia;
 }
@@ -30,6 +33,11 @@ h1 {
 	font-size: 24.0pt;
 	margin: 0px;
 	margin-bottom: 15px;
+}
+h3 > small {
+    font-size: 13.0pt;
+    font-variant: normal;
+    font-weight: normal;
 }
 h2 {
 	border-bottom: 1px solid #accbfb;
@@ -48,9 +56,6 @@ h3 {
 li {
     margin: 2px 0;
 }
-small {
-    font-size: 9.0pt;
-}
 
 .clear {
     float: none !important;
@@ -64,6 +69,9 @@ small {
 }
 .extend {
     cursor: pointer;
+}
+#title {
+    cursor: help;
 }
 #extendable:hover {
     cursor: help;
@@ -105,6 +113,7 @@ small {
 }
 .experience .value {
     float: left;
+    text-align: justify;
 }
 
 
@@ -184,6 +193,7 @@ li.skill div {
     margin: 0 10px 10px 10px;
     padding: 20px;
     min-width: 300px;
+    max-width: 440px;
 }
 h4 {
     font-size: 22.0pt;

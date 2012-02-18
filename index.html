@@ -3,8 +3,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Résumé • Benjamin Oertel</title>
     <link rel="stylesheet" type="text/css" href="./css/reset.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="./css/cv.css" />
-    <!--link rel="stylesheet" type="text/css" media="print" href="./css/cv-print.css" /-->
+    <link rel="stylesheet" type="text/css" href="./css/cv.css" />
+    <link rel="stylesheet" type="text/css" media="print" href="./css/cv-print.css" />
 </head>
 
 <body>
@@ -62,7 +62,7 @@ created by me using Javascript with <a href="http://jquery.com/" target="_blank"
                 <div class="header">
                     <div class="date">{{date}}</div>
                     <div class="separator">:</div>
-                    <div class="title">{{{title}}},&nbsp;</div>
+                    <div class="title">{{{title}}} -&nbsp;</div>
                 </div>
                 <div class="place">{{{place}}}</div>
             </div>
@@ -75,8 +75,10 @@ created by me using Javascript with <a href="http://jquery.com/" target="_blank"
     {{/experience}}
     {{#skill}}
         <li class="skill {{#key}}extend{{/key}}" {{#key}}id="{{key}}"{{/key}}>
+            {{#title}}
             <div class="title"><em>{{title}}</em></div>
             <div class="separator">:</div>
+            {{/title}}
             <div class="value">{{{value}}}</div>
             <div class="clear"></div>
         </li>
@@ -101,9 +103,9 @@ created by me using Javascript with <a href="http://jquery.com/" target="_blank"
 </ul>
 </script>
 
-<script type="text/javascript" src="./js/jquery-1.4.2.min.js"></script>
-<script type="text/javascript" src="./js/ICanHaz.js"></script>
+<script type="text/javascript" src="./js/jquery-1.7.1.min.js"></script>
 <script type="text/javascript" src="./js/mustache.js"></script>
+<script type="text/javascript" src="./js/barbe.js"></script>
 <script type="text/javascript" src="./js/cv.js"></script>
 
 </body>

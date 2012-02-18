@@ -1,0 +1,35 @@
+body {
+    background-image: none;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-size: 18.0pt;
+    margin-bottom: 10px;
+}
+h2 {
+    font-size: 14.0pt;
+    padding-top: 15px;
+}
+h3 {
+    font-size: 13.0pt;
+}
+.experience div {
+    margin-bottom: 0;
+}
+.fluo {
+    text-decoration: none;
+}
+
+/* Hide some stuff */
+#wrapper {
+    padding: 0;
+    margin-bottom:0;
+   -webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none; 
+}
+#footer {
+    display: none;
+}
