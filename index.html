@@ -8,105 +8,129 @@
 </head>
 
 <body>
-<div id="opacity"></div>
-<div id="wrapper">
-    <h1 id="name" class="extend"></h1>
-    <div class="section" id="personal"></div>
-    <div id="title" class="extend"><h3></h3></div>
-    <div class="clear"></div>
+    <div id="slider">
+        <div class="slides">
+            <div class="slide">
+                <div id="wrapper">
+                    <h1 id="name" class="extend"></h1>
 
-    <div id="category"></div>
+                    <div id="personal" class="section"></div>
 
-</div>
+                    <div id="title" class="extend">
+                        <h3></h3>
+                    </div>
 
-<div id="more">
-    <div id="close"></div>
-    <div id="content"></div>
-</div>
-<div class="clear"></div>
-<div id="footer">
-created by me using Javascript with <a href="http://jquery.com/" target="_blank">jQuery</a>, <a href="http://mustache.github.com/" target="_blank">Mustache</a> and <a href="http://icanhazjs.com/" target="_blank">ICanHaz</a>.
-</div>
+                    <div class="clear"></div>
 
-<script type="text/html" id="personal_mustache">
-{{#personal}}
-<ul>
-    {{#location}}
-    <li {{#key}}id="{{key}}" class="extend"{{/key}}>{{{value}}}</li>
-    {{/location}}
-</ul>
-<br>
-<ul>
-    {{#contact}}
-    <li {{#key}}id="{{key}}" class="extend"{{/key}}>{{{value}}}</li>
-    {{/contact}}
-</ul>
-<br>
-<ul>
-    {{#other}}
-    <li {{#key}}id="{{key}}" class="extend"{{/key}}>{{{value}}}</li>
-    {{/other}}
-</ul>
-<br>
-{{/personal}}
-</script>
-
-<script type="text/html" id="category_mustache">
-{{#category}}
-<h2>{{ title }}</h2>
-<div class="section">
-    <ul class="{{ key }}">
-    {{#experience}}
-        <li class="experience {{#key}}extend{{/key}}" {{#key}}id="{{key}}"{{/key}}>
-            <div class="bar">
-                <div class="header">
-                    <div class="date">{{date}}</div>
-                    <div class="separator">:</div>
-                    <div class="title">{{{title}}} -&nbsp;</div>
+                    <div id="category"></div>
                 </div>
-                <div class="place">{{{place}}}</div>
             </div>
-            <ul class="value">
-            {{#value}}
-                <li>{{{.}}}</li>
-            {{/value}}
-            </ul>
-        </li>
-    {{/experience}}
-    {{#skill}}
-        <li class="skill {{#key}}extend{{/key}}" {{#key}}id="{{key}}"{{/key}}>
-            {{#title}}
-            <div class="title"><em>{{title}}</em></div>
-            <div class="separator">:</div>
-            {{/title}}
-            <div class="value">{{{value}}}</div>
-            <div class="clear"></div>
-        </li>
-    {{/skill}}
+            <div class="slide">
+                <div id="more">
+                    <div>
+                        <a href="#" id="previous">&larr; Back</a>
+                    </div>
+                    <div id="content"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- TEMPLATES -->
+<script id="template-personal" data-anchor="personal" type="text/html">
+    {{#personal}}
+    <ul>
+        {{#location}}
+        <li {{#key}}id="{{key}}" class="extend"{{/key}}>{{{value}}}</li>
+        {{/location}}
     </ul>
-</div>
-{{/category}}
+    <br>
+    <ul>
+        {{#contact}}
+        <li {{#key}}id="{{key}}" class="extend"{{/key}}>{{{value}}}</li>
+        {{/contact}}
+    </ul>
+    <br>
+    <ul>
+        {{#other}}
+        <li {{#key}}id="{{key}}" class="extend"{{/key}}>{{{value}}}</li>
+        {{/other}}
+    </ul>
+    <br>
+    {{/personal}}
 </script>
 
-<script type="text/html" id="more_mustache">
-{{#title}}<h4>{{{title}}}</h4>{{/title}}
-{{#text}}<p>{{{text}}}</p>{{/text}}
-<ul class="link">
-{{#link}}
-    {{#url}}
-        <li><a href="{{ url }}" target="_blank">{{{title}}}</a></li>
-    {{/url}}
-    {{^url}}
-        <li>{{{title}}}</li>
-    {{/url}}
-{{/link}}
-</ul>
+<script id="template-category" data-anchor="category" type="text/html">
+    {{#category}}
+    <h2>{{ title }}</h2>
+    <div class="section">
+        <ul class="{{ key }}">
+        {{#experience}}
+            <li class="experience {{#key}}extend{{/key}}" {{#key}}id="{{key}}"{{/key}}>
+                <div class="bar">
+                    <div class="header">
+                        <div class="date">{{date}}</div>
+                        <div class="separator">:</div>
+                        <div class="title">{{{title}}} -&nbsp;</div>
+                    </div>
+                    <div class="place">{{{place}}}</div>
+                </div>
+                <ul class="value">
+                {{#value}}
+                    <li>{{{.}}}</li>
+                {{/value}}
+                </ul>
+            </li>
+        {{/experience}}
+        {{#skill}}
+            <li class="skill {{#key}}extend{{/key}}" {{#key}}id="{{key}}"{{/key}}>
+                {{#title}}
+                <div class="title"><em>{{title}}</em></div>
+                <div class="separator">:</div>
+                {{/title}}
+                <div class="value">{{{value}}}</div>
+                <div class="clear"></div>
+            </li>
+        {{/skill}}
+        </ul>
+    </div>
+    {{/category}}
 </script>
+
+<script id="template-more" data-anchor="content" type="text/html">
+    {{#title}}<h4>{{{title}}}</h4>{{/title}}
+    {{#text}}<p>{{{text}}}</p>{{/text}}
+    <ul class="link">
+    {{#link}}
+        {{#url}}
+            <li><a href="{{ url }}" target="_blank">{{{title}}}</a></li>
+        {{/url}}
+        {{^url}}
+            <li>{{{title}}}</li>
+        {{/url}}
+    {{/link}}
+    </ul>
+</script>
+<!-- TEMPLATES -->
 
 <script type="text/javascript" src="./js/jquery-1.7.1.min.js"></script>
-<script type="text/javascript" src="./js/mustache.js"></script>
+<script type="text/javascript" src="./js/hogan.js"></script>
 <script type="text/javascript" src="./js/barbe.js"></script>
+<script type="text/javascript" src="./js/slider.js"></script>
 <script type="text/javascript" src="./js/cv.js"></script>
+
+<script>
+var slider = new Slider({
+    container: $("#slider"),
+    shift: 600,
+    duration: 300,
+    key: {
+        enable: true,
+        previous: [27],
+        next: [39]
+    }
+});
+</script>
 
 </body>
 </html>

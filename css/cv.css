@@ -2,7 +2,7 @@ body {
     background-image: url('../img/bg.gif');
     color: #333;
     font-size: 11.0pt;
-    margin: 8px;
+    margin: 0;
     font-family: Georgia, Serif;
 }
 body, table, a {
@@ -30,7 +30,7 @@ h1, h2, h3 {
 }
 h1 {
 	color: #2a4fa2;
-	font-size: 24.0pt;
+	font-size: 32px;
 	margin: 0px;
 	margin-bottom: 15px;
 }
@@ -42,20 +42,26 @@ h3 > small {
 h2 {
 	border-bottom: 1px solid #accbfb;
 	color: #2a4fa2;
-	font-size: 16.0pt;
+	font-size: 21px;
 	font-weight: bold;
 	padding: 20px 0px 4px 10px;
 	margin: 0px 0px 5px 0px;
     width: 98%;
 }
 h3 {
-    font-size: 18.0pt;
+    font-size: 24px;
     color: #333;
     padding: 4px;
 }
 li {
     margin: 2px 0;
 }
+span.amp {
+   font-family: Baskerville,"Goudy Old Style","Palatino","Book Antiqua",serif;
+   font-size: 110%;
+   font-style: italic;
+}
+
 
 .clear {
     float: none !important;
@@ -70,6 +76,12 @@ li {
 .extend {
     cursor: pointer;
 }
+
+#slider {
+    margin: 10px 0;
+    width: 880px;
+}
+
 #title {
     cursor: help;
 }
@@ -162,13 +174,19 @@ li.skill div {
 
 /* Layout */
 #wrapper {
+    width: 820px;
     background-color: #fff;
     padding: 20px;
-    margin-bottom: 20px;
 	-webkit-box-shadow: 2px 2px 15px #555;
 	-moz-box-shadow: 2px 2px 15px #555;
 	box-shadow: 2px 2px 15px #555;
     float: left;
+    margin: 0 10px;
+    margin-bottom: 20px;
+}
+#slider {
+    position: absolute;
+    clip: rect(0 880px 10000px -880px);
 }
 #footer {
     text-align:center;
@@ -177,26 +195,18 @@ li.skill div {
 }
 
 /* Standard */
-#wrapper {
-    max-width: 820px;
-    min-width: 750px;
-}
 #more, #more a {
-    font-size: 11.0pt;
+    font-size: 15px;
     text-align: justify;
     line-height: 1.5em;
 }
 #more {
+    min-width: 500px;
+    margin: 10px;
     position: fixed;
-    top: 0;
-    right: 0;
-    margin: 0 10px 10px 10px;
-    padding: 20px;
-    min-width: 300px;
-    max-width: 440px;
 }
 h4 {
-    font-size: 22.0pt;
+    font-size: 29px;
     margin: 10px 0 25px 0;
 }
 #content p {
@@ -204,102 +214,4 @@ h4 {
 }
 #content ul {
     margin-left: 25px;
-}
-
-
-@media screen and (max-device-width: 1235px), screen and (max-width: 1235px) {
-    #wrapper, #more, #footer {
-        width: 800px;
-        min-width: 800px;
-    }
-    #title {
-        margin-top: 90px;
-    }
-    #close {
-        position: absolute;
-        width: 30px;
-        height: 30px;
-        cursor: pointer;
-        z-index: 1;
-        background: transparent url('../img/close.png') -40px 0px;
-    }
-    #close {
-        top:-12px;
-        right:-30px;
-    }
-
-    #opacity {
-        background-image:-moz-radial-gradient(rgba(127, 127, 127, 0.5), rgba(127, 127, 127, 0.5) 35%, rgba(0, 0, 0, 0.7));
-        background-image:-webkit-gradient(radial, 50% 5%, 0, 50% 5%, 1400, from(rgba(127, 127, 127, 0.5)), to(rgba(0, 0, 0, 0.7)));
-        filter: alpha(opacity=70);
-        -khtml-opacity: .7;
-        -moz-opacity: .7;
-        opacity: 0.7;
-        display: none;
-        position: fixed;
-        top: 0;
-        left: 0;
-        background-color: #000;
-        width: 100%;
-        height: 100%;
-        margin: 0;
-        padding: 0;
-    }
-    #more {
-        display: none;
-        z-index: 2;
-        position: fixed;
-        top: 0;
-        left: 0;
-        margin: 20px 10px;
-        padding: 0;
-        -moz-box-shadow: 0 5px 40px rgba(0,0,0,.5);
-        -webkit-box-shadow: 0 5px 40px rgba(0,0,0,.5);
-        box-shadow: 0 5px 40px rgba(0,0,0,.5);
-    }
-    #content {
-        min-height: 200px;
-        padding: 10px;
-        position: relative;
-        background-color: #fff;
-        width: 100%;
-    }
-}
-@media screen and (max-device-width: 859px), screen and (max-width: 859px) {
-    #wrapper, #more, #footer {
-        width: 470px;   
-        min-width: 470px;   
-    }
-    #wrapper {
-        padding: 10px;
-    }
-    #title {
-        margin-top: 90px;
-        width: 180px;
-    }
-    #personal {
-        width: 200px;
-    }
-    #close {
-        right: -22px;
-        top: -12px;
-    }
-    .experience {
-        border-bottom: 1px solid #e8e8e8;
-    }
-    #personal ul {
-        width: 200px;
-    }
-    .education .place {
-        margin-left: 93px;
-    }
-    .professional .place {
-        margin-left: 163px;
-    }
-    #more {
-        margin: 20px 5px;
-    }
-    #content {
-        padding: 5px;
-    }
 }

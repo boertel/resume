@@ -1,6 +1,6 @@
 {
     "job":"Software Engineer",
-    "image":"",
+    "image":"../img/pas-de-bras.jpg",
     "name":"Benjamin Oertel",
     "personal": {
         "location": [
@@ -19,6 +19,54 @@
     },
     "category": [
     {
+        "title":"Professional Experiences",
+        "key":"professional",
+        "experience": [
+            {
+                "key":"punchtab",
+                "date":"September 2011 to now",
+                "title":"<strong>Software Engineer</strong>",
+                "place":"PunchTab, <em>Palo Alto, CA, USA</em>",
+                "value":["Working on the backend of Punchtab.com with the APIs and databases"]
+            },
+            {
+                "key":"punchtab_intern",
+                "date":"March to Sep. 2011",
+                "title":"<strong>Software Engineer Intern</strong>",
+                "place":"PunchTab, <em>Menlo Park, CA, USA</em>",
+                "value":["Working on the backend of Punchtab.com with the APIs and databases"]
+            },
+            {
+                "key":"dawan",
+                "date":"June to August 2011",
+                "title":"<strong>Developer Intern in an IT company</strong>",
+                "place":"Dawan, <em>Nantes, France</em>",
+                "value":["Integration in a development team and work on an e-commerce website using Java/JEE."]
+            },
+            {
+                "key":"false",
+                "date":"April to July 2008",
+                "title":"<strong>Intern in an IT Department</strong>",
+                "place":"Sermat, <em>Montaigu, France</em>",
+                "value":["Microsoft Access softwares using SQL Server","Use of Visual FoxPro database to create a file to supply a production machine","Daily maintenance of employees computer problems"]
+            }
+        ]
+    },
+    {
+        "title":"Computer Skills",
+        "key":"computer",
+        "skill": [
+            {"key":"programming","title":"Programming Languages","value":"Python, Java, C#, C++, Objective-C, C, Ada"},
+            {"key":"web","title":"Web Technologies","value":"Javascript (pure and librairies), html, css, Node.js, php, jsp"},
+            {"key":"framework","title":"Frameworks","value":"Django, Hibernate, Spring, Struts 2, JEE"},
+            {"key":"database","title":"Databases","value":"Mongo DB, MySQL, Oracle, SQL Server, Access"},
+            {"key":"os","title":"Operating Systems","value":"Mac OS X, Unix/Linux, Windows"},
+            {"key":"ide","title":"Development Environments","value":"Eclipse, Visual Studio, Xcode"},
+            {"key":"tools","title":"Tools","value":"vim, git, LaTeX"},
+            {"key":"","title":"Applications","value":"Adobe Photoshop, Microsoft Office/iWork"}
+        ]
+     },
+     {
         "title":"Education",
         "key":"education",
         "experience": [
@@ -52,61 +100,12 @@
         ]
     },
     {
-        "title":"Computer Skills",
-        "key":"computer",
-        "skill": [
-            {"key":"programming","title":"Programming Languages","value":"Python, Java, C#, C++, Objective-C, C, Ada"},
-            {"key":"web","title":"Web Technologies","value":"php, jsp, javascript (pure and librairies), html, css"},
-            {"key":"framework","title":"Frameworks","value":"Django, Hibernate, Spring, Struts 2, JEE"},
-            {"key":"database","title":"Databases","value":"Mongo DB, MySQL, Oracle, SQL Server, Access"},
-            {"key":"","title":"Specifications","value":"UML, Merise"},
-            {"key":"os","title":"Operating Systems","value":"Mac OS X, Unix/Linux, Windows"},
-            {"key":"ide","title":"Development Environments","value":"Eclipse, Visual Studio, Xcode"},
-            {"key":"tools","title":"Tools","value":"LaTeX, vim, git"},
-            {"key":"","title":"Applications","value":"Adobe Photoshop, Microsoft Office/iWork"}
-        ]
-     },
-     {
-        "title":"Professional Experiences",
-        "key":"professional",
-        "experience": [
-            {
-                "key":"punchtab",
-                "date":"September 2011 to now",
-                "title":"<strong>Software Engineer</strong>",
-                "place":"PunchTab, <em>Palo Alto, CA, USA</em>",
-                "value":["Working on the backend of Punchtab.com with the APIs and databases"]
-            },
-            {
-                "key":"punchtab_intern",
-                "date":"March to Sep. 2011",
-                "title":"<strong>Software Engineer Intern</strong>",
-                "place":"PunchTab, <em>Menlo Park, CA, USA</em>",
-                "value":["Working on the backend of Punchtab.com with the APIs and databases"]
-            },
-            {
-                "key":"dawan",
-                "date":"June to August 2011",
-                "title":"<strong>Developer Intern in an IT company</strong>",
-                "place":"Dawan, <em>Nantes, France</em>",
-                "value":["Integration in a development team and work on an e-commerce website using Java/JEE."]
-            },
-            {
-                "key":"sermat",
-                "date":"April to July 2008",
-                "title":"<strong>Intern in an IT Department</strong>",
-                "place":"Sermat, <em>Montaigu, France</em>",
-                "value":["Microsoft Access softwares using SQL Server","Use of Visual FoxPro database to create a file to supply a production machine","Daily maintenance of employees computer problems"]
-            }
-        ]
-    },
-    {
         "title":"Languages",
         "key":"language",
         "skill": [
             {"key":"french","title":"French","value":"mother tongue<span class=\"hidden\"> - Aller à la version francaise</span>"},
             {"key":"english","title":"English","value":"fluent (studied for 11 years)<span class=\"hidden\"> - Switch to the English version</span>"},
-            {"key":"","title":"German","value":"read & write (studied for 9 years)<span class=\"hidden\"> - Zur deutschen Version</span>"}
+            {"key":"","title":"German","value":"read <span class=\"amp\">&amp;</span> write (studied for 9 years)<span class=\"hidden\"> - Zur deutschen Version</span>"}
         ]
     },
     {

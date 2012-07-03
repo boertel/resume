@@ -1,63 +1,58 @@
-$.ajaxSetup ({
-    cache: false
-});
+(function (window, undefined) {
+})(window);
 
 function load_json(language) {
-    $.getJSON('json/'+language+'/data.json', function(data) {
-        console.log(data);
+    $.getJSON('json/' + language + '/data.json', function (data) {
+
+        
+
         $('#name').html(data.name);
-        $('#title > h3').html(data.title);
+        $('#title > h3').html(data.job);
 
-        var personal_mustache = ich.personal_mustache({personal:data.personal});
-        $('#personal').html(personal_mustache);
+        var templatePersonal = new Barbe.View("template-personal", {data:
+            {personal:data.personal}
+        }).grow();
 
-        var category_mustache = ich.category_mustache(data);
-        $('#category').html(category_mustache);
-
-        $('.language .title').removeClass('fluo');
-        $('#'+language+' .title').addClass('fluo');
-
-        $('#extendable').click(function() {
-            $('.extend').toggleClass('extendable');
-            return false;
+        var templateCategory = new Barbe.View("template-category", {data: data}).grow(function () {
+            $('.language .title').removeClass('fluo');
+            $('#'+language+' .title').addClass('fluo');
         });
 
-        $('.hidden').hide();
-        $('.extend').hover(function() {
-            $(this).find('.hidden').show();
-        }, function() {
-            $(this).find('.hidden').hide();
+        $("#wrapper").unbind('click').click(function () {
+            slider.previous();
         });
 
-        $('#opacity, #close').click(function() {
-            $('#opacity, #close, #more').hide();
-        });
-        $('.extend').click(function() {
-            $('.extend').removeClass('extendable');
-            $(this).addClass('extendable');
-            var key = $(this).attr('id');
+        $(".extend").click(function () {
+            var key = $(this).attr("id");
             // special Key
             if (key === 'french' || key === 'english' || key === 'german') {
                 load_json(key);
+                return;
             }
-            else {
-                $.ajax({
-                    method: 'get',
-                    url:'json/'+language+'/'+key+'.json',
-                    dataType: 'json',
-                    success: function(data) {
-                        var more_mustache = ich.more_mustache(data);
-                        $('#opacity, #more, #close').show();
-                        $('#content').html(more_mustache);
-                    },
-                    error: function(err) {
-                        if (err.status == '404') {
-                            $('#content').html('Not Found - ' + key);
-                        }
-                    }
-                });
-            }
+
             
+
+            var that = $(this);
+            
+
+            var templateExtend = new Barbe.View("template-more", {
+                data: {r: Math.random()},
+                url: 'json/' + language + '/' + key + '.json',
+                error: function () {
+                    return false;
+                }
+            }).grow(function () {
+                $(this).addClass("extendable");
+                $("#wrapper").css("opacity", 0.5);
+                slider.onPrevious = function () {
+                    $("#wrapper").css("opacity", 1);
+                    that.removeClass('extendable');
+                };
+                slider.next();
+                $("#previous").click(function () {
+                    slider.previous();
+                });
+            });
         });
     });
 }
