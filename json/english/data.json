@@ -4,11 +4,9 @@
     "name":"Benjamin Oertel",
     "personal": {
         "location": [
-            {"key":"live","value":"<span>Lives in</span> San Francisco, CA, USA"},
-            {"key":"from","value":"<span>From</span> Nantes, France"}
+            {"key":"live","value":"San Francisco, CA, USA"}
         ],
         "contact": [
-            {"key":"skype","value":"ben.oertel <small>(Skype)</small>"},
             {"key":"","value":"+1 (650) 739-6361"},
             {"key":"email","value":"benjamin.oertel@gmail.com"}
         ]
@@ -95,28 +93,19 @@
                 "key":"erasmus",
                 "date":"Fall 2010",
                 "title":"<strong>One semester in Sweden, Erasmus Program</strong>",
-                "place":"<em>Linnæus University, Växjö, Sweden</em>",
-                "value":["<em>Courses</em> : Object Oriented C#, Software from Components, Web services and Applied Program Analysis."]
+                "place":"<em>Linnæus University, Växjö, Sweden</em>"
             },
             {
                 "key":"polytech",
                 "date":"2008 - 2011",
                 "title":"<strong>School of Computer Science and Engineering</strong>",
-                "place":"<em>Polytechnic School of Nantes University, France</em>",
-                "value":["<em>Project</em> : Creation of a Microsoft Exchange plug-in for YouSendIt."]
+                "place":"<em>Polytechnic School of Nantes University, France</em>"
             },
             {
                 "key":"iut",
                 "date":"2006 - 2008",
                 "title":"<strong>Two-year degree in Computer Science</strong>",
-                "place":"<em>University Institute of Technology, Nantes, France</em>",
-                "value":["<em>Project</em> : Website for a sport association using PHP and MySQL."]
-            },
-            {
-                "key":"",
-                "date":"2006 - 2008",
-                "title":"<strong>Scientific Baccalauréat (French High School Diploma)</strong>",
-                "place":"<em>Lycée Jeanne d'Arc, Montaigu, France</em>"
+                "place":"<em>University Institute of Technology, Nantes, France</em>"
             }
         ]
     },
