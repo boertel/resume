@@ -27,14 +27,18 @@
                 "date":"September 2011 to now",
                 "title":"<strong>Software Engineer</strong>",
                 "place":"PunchTab, <em>Palo Alto, CA, USA</em>",
-                "value":["Working on the backend of Punchtab.com with the APIs and databases"]
+                "value": [
+                    "Integrate the earning mechanisms with social networks APIs and SDK such as Facebook, Twitter and Instagram,",
+                    "Working with designers and clients to build custom features and micro-sites,",
+                    ""
+                ]
             },
             {
                 "key":"punchtab_intern",
                 "date":"March to Sep. 2011",
-                "title":"<strong>Software Engineer Intern</strong>",
+                "title":"<strong>Software Engineer Intern in an early stage start-up</strong>",
                 "place":"PunchTab, <em>Menlo Park, CA, USA</em>",
-                "value":["Working on the backend of Punchtab.com with the APIs and databases"]
+                "value":["Administration interface and APIs for website owners", "Reward enable end-users actions using social networks APIs and SDK"]
             },
             {
                 "key":"dawan",
@@ -48,7 +52,7 @@
                 "date":"April to July 2008",
                 "title":"<strong>Intern in an IT Department</strong>",
                 "place":"Sermat, <em>Montaigu, France</em>",
-                "value":["Microsoft Access softwares using SQL Server","Use of Visual FoxPro database to create a file to supply a production machine","Daily maintenance of employees computer problems"]
+                "value":["Microsoft Access softwares using SQL Server","Daily maintenance of employees computer problems"]
             }
         ]
     },
@@ -56,12 +60,11 @@
         "title":"Computer Skills",
         "key":"computer",
         "skill": [
-            {"key":"programming","title":"Programming Languages","value":"Python, Java, C#, C++, Objective-C, C, Ada"},
-            {"key":"web","title":"Web Technologies","value":"Javascript (pure and librairies), html, css, Node.js, php, jsp"},
-            {"key":"framework","title":"Frameworks","value":"Django, Hibernate, Spring, Struts 2, JEE"},
-            {"key":"database","title":"Databases","value":"Mongo DB, MySQL, Oracle, SQL Server, Access"},
+            {"key":"web","title":"Web Technologies","value":"Javascript (pure and librairies), html, css"},
+            {"key":"programming","title":"Programming Languages","value":"Python, Node.js, Java, C#, C, C++"},
+            {"key":"framework","title":"Framework","value":"Django"},
+            {"key":"database","title":"Databases","value":"Mongo DB, MySQL, Postgres"},
             {"key":"os","title":"Operating Systems","value":"Mac OS X, Unix/Linux, Windows"},
-            {"key":"ide","title":"Development Environments","value":"Eclipse, Visual Studio, Xcode"},
             {"key":"tools","title":"Tools","value":"vim, git, LaTeX"},
             {"key":"","title":"Applications","value":"Adobe Photoshop, Microsoft Office/iWork"}
         ]
@@ -112,8 +115,8 @@
         "title":"Interests",
         "key":"interest",
         "skill": [
-            {"key":"graphism","title":"Graphism","value":"design, web design, user interface, drawing"},
-            {"key":"","title":"Sport","value":"tennis (competition) and most of racket sports"}
+            {"key":"graphism","title":"Graphism","value":"drawing, design, web design, user interface"},
+            {"key":"","title":"Sport","value":"running, tennis (competition) and most of racket sports"}
         ]
     }
     ]
