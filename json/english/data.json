@@ -4,19 +4,27 @@
     "name":"Benjamin Oertel",
     "personal": {
         "location": [
-            {"key":"live","value":"<span>Lives in</span> Palo Alto, CA, USA"},
+            {"key":"live","value":"<span>Lives in</span> San Francisco, CA, USA"},
             {"key":"from","value":"<span>From</span> Nantes, France"}
         ],
         "contact": [
             {"key":"skype","value":"ben.oertel <small>(Skype)</small>"},
             {"key":"","value":"+1 (650) 739-6361"},
             {"key":"email","value":"benjamin.oertel@gmail.com"}
-        ],
-        "other": [
-            {"key":"birthday","value":"26 November 1988"},
-            {"key":"","value":"Driver license"}
         ]
     },
+    "social": [
+        {
+            "key": "github",
+            "href": "https://www.github.com/boertel",
+            "value": "GitHub"
+        },
+        {
+            "key": "twitter",
+            "href": "https://www.twitter.com/boertel",
+            "value": "Twitter"
+        }
+    ],
     "category": [
     {
         "title":"Professional Experiences",
@@ -115,7 +123,6 @@
         "title":"Interests",
         "key":"interest",
         "skill": [
-            {"key":"graphism","title":"Graphism","value":"drawing, design, web design, user interface"},
             {"key":"","title":"Sport","value":"running, tennis (competition) and most of racket sports"}
         ]
     }

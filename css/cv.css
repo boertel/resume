@@ -1,5 +1,5 @@
 body {
-    background-image: url('../img/bg.gif');
+    background: #EBEBEB;
     color: #333;
     font-size: 11.0pt;
     margin: 0;
@@ -67,19 +67,8 @@ span.amp {
     float: none !important;
     clear: both;
 }
-.section {
-    margin-left: 20px;
-}
 .separator {
     margin: 0 5px;
-}
-.extend {
-    cursor: pointer;
-}
-
-#slider {
-    margin: 10px 0;
-    width: 880px;
 }
 
 #title {
@@ -88,16 +77,19 @@ span.amp {
 #extendable:hover {
     cursor: help;
 }
+/*
+.extend {
+    cursor: pointer;
+}
 .extendable, .extend:hover {
     background-color: #dce6f8;
-    border-radius: 3px;
 }
+*/
 .experience, li.skill, #personal li {
     padding: 2px;
+    padding-left: 20px;
 }
-.extend:hover {
-    padding-left: 4px;
-}
+
 .hidden {
     display: inline;
     font-style: normal;
@@ -111,6 +103,25 @@ span.amp {
 .value li:before {
     content: '- ';
 }
+
+.name {
+    float: left;
+}
+.social {
+    margin-left: 40px;
+    float: left;
+    line-height: 45px;
+}
+
+.icon {
+    padding-left: 5px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.icon:hover {
+    text-decoration: none;
+}
+
 
 /* Experience */
 .experience {
@@ -141,7 +152,7 @@ li.skill div {
 .education .value {
     margin-left: 115px;
 }
-    
+
 .professional .date {
     width: 150px;
 }
@@ -177,17 +188,9 @@ li.skill div {
     width: 820px;
     background-color: #fff;
     padding: 20px;
-	-webkit-box-shadow: 2px 2px 15px #555;
-	-moz-box-shadow: 2px 2px 15px #555;
-	box-shadow: 2px 2px 15px #555;
-    float: left;
-    margin: 0 10px;
-    margin-bottom: 20px;
+    margin: 20px auto;
 }
-#slider {
-    position: absolute;
-    clip: rect(0 880px 10000px -880px);
-}
+
 #footer {
     text-align:center;
     margin: 30px 0;

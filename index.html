@@ -4,39 +4,39 @@
 	<title>R&eacute;sum&eacute; - Benjamin Oertel</title>
     <link rel="stylesheet" type="text/css" href="./css/reset.css" />
     <link rel="stylesheet" type="text/css" href="./css/cv.css" />
+    <link rel="stylesheet" type="text/css" href="./css/fonts.css" />
     <link rel="stylesheet" type="text/css" media="print" href="./css/cv-print.css" />
 </head>
 
 <body>
-    <div id="slider">
-        <div class="slides">
-            <div class="slide">
-                <div id="wrapper">
-                    <h1 id="name" class="extend"></h1>
 
-                    <div id="personal" class="section"></div>
+<div id="wrapper">
+    <div id="header"></div>
 
-                    <div id="title" class="extend">
-                        <h3></h3>
-                    </div>
+    <div id="personal" class="section"></div>
 
-                    <div class="clear"></div>
-
-                    <div id="category"></div>
-                </div>
-            </div>
-            <div class="slide">
-                <div id="more">
-                    <div>
-                        <a href="#" id="previous">&larr; Back</a>
-                    </div>
-                    <div id="content"></div>
-                </div>
-            </div>
-        </div>
+    <div id="title" class="extend">
+        <h3></h3>
     </div>
 
+    <div class="clear"></div>
+
+    <div id="category"></div>
+</div>
+
 <!-- TEMPLATES -->
+<script id="template-social" data-anchor="header" type="text/html">
+    <div class="name">
+        <h1 id="name" class="extend">{{ name }}</h1>
+    </div>
+    <div class="social">
+        {{#social}}
+            <a href="{{ href }}" target="_blank" class="icon icon-{{ key }}"></a>
+        {{/social}}
+    </div>
+    <div class="clear"></div>
+</script>
+
 <script id="template-personal" data-anchor="personal" type="text/html">
     {{#personal}}
     <ul>
@@ -116,21 +116,7 @@
 <script type="text/javascript" src="./js/jquery-1.7.1.min.js"></script>
 <script type="text/javascript" src="./js/hogan.js"></script>
 <script type="text/javascript" src="./js/barbe.js"></script>
-<script type="text/javascript" src="./js/slider.js"></script>
 <script type="text/javascript" src="./js/cv.js"></script>
-
-<script>
-var slider = new Slider({
-    container: $("#slider"),
-    shift: 600,
-    duration: 300,
-    key: {
-        enable: true,
-        previous: [27],
-        next: [39]
-    }
-});
-</script>
 
 <script type="text/javascript">
   var _gaq = _gaq || [];

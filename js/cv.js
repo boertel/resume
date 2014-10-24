@@ -1,13 +1,14 @@
-(function (window, undefined) {
-})(window);
-
 function load_json(language) {
     $.getJSON('json/' + language + '/data.json', function (data) {
 
-        
-
-        $('#name').html(data.name);
         $('#title > h3').html(data.job);
+
+        var templateHeader = new Barbe.View('template-social', {data:
+            {
+                name: data.name,
+                social: data.social
+            }
+        }).grow();
 
         var templatePersonal = new Barbe.View("template-personal", {data:
             {personal:data.personal}
@@ -18,10 +19,6 @@ function load_json(language) {
             $('#'+language+' .title').addClass('fluo');
         });
 
-        $("#wrapper").unbind('click').click(function () {
-            slider.previous();
-        });
-
         $(".extend").click(function () {
             var key = $(this).attr("id");
             // special Key
@@ -30,10 +27,7 @@ function load_json(language) {
                 return;
             }
 
-            
-
             var that = $(this);
-            
 
             var templateExtend = new Barbe.View("template-more", {
                 data: {r: Math.random()},
@@ -41,18 +35,7 @@ function load_json(language) {
                 error: function () {
                     return false;
                 }
-            }).grow(function () {
-                $(this).addClass("extendable");
-                $("#wrapper").css("opacity", 0.5);
-                slider.onPrevious = function () {
-                    $("#wrapper").css("opacity", 1);
-                    that.removeClass('extendable');
-                };
-                slider.next();
-                $("#previous").click(function () {
-                    slider.previous();
-                });
-            });
+            }).grow()
         });
     });
 }
