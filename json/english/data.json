@@ -32,35 +32,47 @@
         "experience": [
             {
                 "key":"punchtab",
-                "date":"September 2011 to now",
+                "date":"October 2011 to now",
                 "title":"<strong>Software Engineer</strong>",
                 "place":"PunchTab, <em>Palo Alto, CA, USA</em>",
+                "description": "",
                 "value": [
-                    "Integrate the earning mechanisms with social networks APIs and SDK such as Facebook, Twitter and Instagram,",
-                    "Working with designers and clients to build custom features and micro-sites,",
-                    ""
-                ]
+                    "Develop APIs to manage loyalty program mechanisms (leaderboard, points, rewards)",
+                    "Create JavaScript SDK for publishers and internal teams",
+                    "Reward end-user actions on third party websites such as Facebook, Twitter and Instagram",
+                    "Build internal tools: custom front-end framework for designers and deployment bot",
+                    "Develop micro-sites with PunchTab technology for customers, from hosting to support."
+                ],
+                "technologies": ["Django", "MySQL", "mongoDB", "Postgres", "redis", "angular", "Foundation"]
             },
             {
                 "key":"punchtab_intern",
-                "date":"March to Sep. 2011",
-                "title":"<strong>Software Engineer Intern in an early stage start-up</strong>",
+                "date":"March to Sept. 2011",
+                "title":"<strong>Software Engineer Intern</strong>",
                 "place":"PunchTab, <em>Menlo Park, CA, USA</em>",
-                "value":["Administration interface and APIs for website owners", "Reward enable end-users actions using social networks APIs and SDK"]
+                "description": "Designed, developed and maintained the early product (4 months-old) working on the fullstack from databases to front-end and customer support.",
+                "value": []
             },
             {
-                "key":"dawan",
-                "date":"June to August 2011",
-                "title":"<strong>Developer Intern in an IT company</strong>",
-                "place":"Dawan, <em>Nantes, France</em>",
-                "value":["Integration in a development team and work on an e-commerce website using Java/JEE."]
+                "key": "dawan",
+                "date": "June to August 2010",
+                "title": "<strong>Developer Intern in an IT company</strong>",
+                "place": "Dawan, <em>Nantes, France</em>",
+                "description": "Joined an engineering team to implement an e-commerce website according to specifications.",
+                "value": [
+                    "integrate an existing project using Java/J2EE"
+                ],
+                "technologies": []
             },
             {
-                "key":"false",
-                "date":"April to July 2008",
-                "title":"<strong>Intern in an IT Department</strong>",
-                "place":"Sermat, <em>Montaigu, France</em>",
-                "value":["Microsoft Access softwares using SQL Server","Daily maintenance of employees computer problems"]
+                "key": "false",
+                "date": "April to July 2008",
+                "title": "<strong>Developer Intern in an IT Department</strong>",
+                "place": "Sermat, <em>Montaigu, France</em>",
+                "value": [
+                    "Microsoft Access softwares using SQL Server for the pre-production and research departments",
+                    "Daily maintenance of employees computer"
+                ]
             }
         ]
     },
@@ -68,13 +80,11 @@
         "title":"Computer Skills",
         "key":"computer",
         "skill": [
-            {"key":"web","title":"Web Technologies","value":"Javascript (pure and librairies), html, css"},
+            {"key":"web","title":"Web Technologies","value":"JavaScript (angular, react), html, css"},
             {"key":"programming","title":"Programming Languages","value":"Python, Node.js, Java, C#, C, C++"},
-            {"key":"framework","title":"Framework","value":"Django"},
-            {"key":"database","title":"Databases","value":"Mongo DB, MySQL, Postgres"},
-            {"key":"os","title":"Operating Systems","value":"Mac OS X, Unix/Linux, Windows"},
-            {"key":"tools","title":"Tools","value":"vim, git, LaTeX"},
-            {"key":"","title":"Applications","value":"Adobe Photoshop, Microsoft Office/iWork"}
+            {"key":"frameworks","title":"Frameworks","value":"Django, Express"},
+            {"key":"database","title":"Databases","value":"MySQL, mongoDB, Postgres, Redis"},
+            {"key":"tools","title":"Tools","value":"vim, git, LaTeX"}
         ]
      },
      {
@@ -84,7 +94,7 @@
             {
                 "key":"erasmus",
                 "date":"Fall 2010",
-                "title":"<strong>One semester, Erasmus Program</strong>",
+                "title":"<strong>One semester in Sweden, Erasmus Program</strong>",
                 "place":"<em>Linnæus University, Växjö, Sweden</em>",
                 "value":["<em>Courses</em> : Object Oriented C#, Software from Components, Web services and Applied Program Analysis."]
             },
@@ -123,7 +133,16 @@
         "title":"Interests",
         "key":"interest",
         "skill": [
-            {"key":"","title":"Sport","value":"running, tennis (competition) and most of racket sports"}
+            {
+                "key":"",
+                "title":"Sport",
+                "value":"running, tennis and most of racket sports"
+            },
+            {
+                "key":"",
+                "title":"Reading",
+                "value":"science-fiction, fiction and historical books"
+            }
         ]
     }
     ]

@@ -77,14 +77,7 @@ span.amp {
 #extendable:hover {
     cursor: help;
 }
-/*
-.extend {
-    cursor: pointer;
-}
-.extendable, .extend:hover {
-    background-color: #dce6f8;
-}
-*/
+
 .experience, li.skill, #personal li {
     padding: 2px;
     padding-left: 20px;
@@ -134,9 +127,16 @@ span.amp {
     float: left;
     margin-bottom: 2px;
 }
+.experience .description,
 .experience .value {
     float: left;
     text-align: justify;
+}
+.experience .description {
+    margin-bottom: 10px;
+    margin-left: 165px;
+    margin-right: 20px;
+    line-height: 1.3em;
 }
 
 
@@ -158,6 +158,10 @@ li.skill div {
 }
 .professional .value {
     margin-left: 185px;
+}
+
+.professional .value li {
+    margin-bottom: 5px;
 }
 
 .computer .title {
