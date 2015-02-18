@@ -8,8 +8,10 @@ body, table, a {
 	color: #000000;
 	font-family: Georgia, serif;
     font-size: 14px;
-    line-height: 1.2em;
 	text-decoration: none;
+}
+p, li {
+    line-height: 1.2em;
 }
 a {
     color: #2a4fa2;
@@ -32,7 +34,6 @@ h1 {
 	color: #2a4fa2;
 	font-size: 32px;
 	margin: 0px;
-	margin-bottom: 15px;
 }
 h3 > small {
     font-size: 13.0pt;
@@ -44,58 +45,93 @@ h2 {
 	color: #2a4fa2;
 	font-size: 21px;
 	font-weight: bold;
-	padding: 20px 0px 6px 0px;
-	margin: 0px 0px 0px 0px;
+    padding-bottom: 4px;
+	margin: 0;
 }
 h3 {
     font-size: 24px;
     color: #333;
     padding: 4px;
 }
+
+
 span.amp {
    font-family: Baskerville,"Goudy Old Style","Palatino","Book Antiqua",serif;
    font-size: 110%;
    font-style: italic;
 }
-
-
-.clear {
-    float: none !important;
-    clear: both;
+.clearfix:after, .section:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
 }
 .separator {
     margin: 0 5px;
 }
-
-#title {
-    cursor: help;
-}
-.section {
-    margin: 0.5em 20px 0 20px;
-}
-
 .hidden {
     display: inline;
     font-style: normal;
-    font-color: #666;
     font-family: 'Lucida Grande', sans-serif;
     font-size: 11px;
 }
+.show-on-print {
+    display: none;
+}
+
+/* LAYOUT */
+#wrapper {
+    width: 820px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+}
+.section {
+    margin: 0.5em 0px 1.2em 20px;
+}
+
+
+
+
 .fluo {
     text-decoration: underline;
 }
 
 
+
+
+/* HEADER */
+#header {
+    margin-bottom: 1.5em;
+}
+.job {
+    cursor: help;
+    font-variant: small-caps;
+    float: right;
+    line-height: 32px;
+}
 .name {
     float: left;
 }
-.social {
-    margin-left: 40px;
+
+/* CONTACT */
+#personal {
+    margin-bottom: 1em;
+}
+.contact {
     float: left;
-    line-height: 45px;
+}
+.social {
+    float: right;
+}
+.social > div {
+    margin-bottom: 6px;
 }
 
 .icon {
+    line-height: 45px;
     padding-left: 5px;
     margin-right: 10px;
     font-size: 20px;
@@ -105,7 +141,7 @@ span.amp {
 }
 
 
-/* Experience */
+/* eXPERIENCE */
 .experience {
     overflow: hidden;
 }
@@ -118,6 +154,7 @@ span.amp {
 }
 .experience .date {
     float: right;
+    color: #666;
     text-align: right;
 }
 .experience .description,
@@ -137,7 +174,7 @@ ul.value li {
 }
 
 
-/* Skill */
+/* SKILL */
 li.skill {
     margin-bottom: 0.4em;
 }
@@ -145,12 +182,10 @@ li.skill div {
     float: left;
 }
 
-/* Custom */
+/* CUSTOM */
 .education .date {
     width: 80px;
 }
-
-
 .computer .title {
     width: 180px;
 }
@@ -161,16 +196,4 @@ li.skill div {
     width: 80px;
 }
 
-#title {
-    font-variant: small-caps;
-    margin-top: 10px;
-    text-align: center;
-}
 
-/* Layout */
-#wrapper {
-    width: 820px;
-    background-color: #fff;
-    padding: 20px;
-    margin: 20px auto;
-}

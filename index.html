@@ -5,21 +5,15 @@
     <link rel="stylesheet" type="text/css" href="./css/reset.css" />
     <link rel="stylesheet" type="text/css" href="./css/cv.css" />
     <link rel="stylesheet" type="text/css" href="./css/fonts.css" />
-    <link rel="stylesheet" type="text/css" media="print" href="./css/cv-print.css" />
+    <link rel="stylesheet" type="text/css"  href="./css/cv-print.css" />
 </head>
 
 <body>
 
 <div id="wrapper">
-    <div id="header"></div>
+    <div id="header" class="clearfix"></div>
 
     <div id="personal" class="section"></div>
-
-    <div id="title" class="extend">
-        <h3></h3>
-    </div>
-
-    <div class="clear"></div>
 
     <div id="category"></div>
 </div>
@@ -27,30 +21,37 @@
 <!-- TEMPLATES -->
 <script id="template-social" data-anchor="header" type="text/html">
     <div class="name">
-        <h1 id="name" class="extend">{{ name }}</h1>
+        <h1 id="name">{{ name }}</h1>
     </div>
-    <div class="social">
-        {{#social}}
-            <a href="{{ href }}" target="_blank" class="icon icon-{{ key }}"></a>
-        {{/social}}
+    <div class="job">
+        <h3 id="job">{{ title }}</h3>
     </div>
-    <div class="clear"></div>
 </script>
 
 <script id="template-personal" data-anchor="personal" type="text/html">
-    {{#personal}}
-    <ul>
-        {{#location}}
-        <li {{#key}}id="{{key}}" class="extend"{{/key}}>{{{value}}}</li>
-        {{/location}}
-    </ul>
-    <br>
-    <ul>
-        {{#contact}}
-        <li {{#key}}id="{{key}}" class="extend"{{/key}}>{{{value}}}</li>
-        {{/contact}}
-    </ul>
-    {{/personal}}
+    <div class="contact">
+        {{#personal}}
+        <ul>
+            {{#location}}
+            <li{{#key}} id="{{key}}"{{/key}}>{{{value}}}</li>
+            {{/location}}
+        </ul>
+        <br>
+        <ul>
+            {{#contact}}
+            <li{{#key}} id="{{key}}"{{/key}}>{{{value}}}</li>
+            {{/contact}}
+        </ul>
+        {{/personal}}
+    </div>
+    <div class="social">
+        {{#social}}
+            <div>
+                <a href="{{ href }}" target="_blank" class="hide-on-print icon icon-{{ key }}"></a>
+                <a href="{{ href }}" target="_blank" class="show-on-print">{{ href }}</a>
+            </div>
+        {{/social}}
+    </div>
 </script>
 
 <script id="template-category" data-anchor="category" type="text/html">
@@ -77,13 +78,12 @@
             </li>
         {{/experience}}
         {{#skill}}
-            <li class="skill" {{#key}}id="{{key}}"{{/key}}>
+            <li class="skill clearfix"{{#key}} id="{{key}}"{{/key}}>
                 {{#title}}
                 <div class="title"><em>{{title}}</em></div>
                 <div class="separator">:</div>
                 {{/title}}
                 <div class="value">{{{value}}}</div>
-                <div class="clear"></div>
             </li>
         {{/skill}}
         </ul>
