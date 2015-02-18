@@ -25,31 +25,23 @@
     ],
     "category": [
     {
-        "title":"Professional Experiences",
+        "title":"Experience",
         "key":"professional",
         "experience": [
             {
                 "key":"punchtab",
-                "date":"October 2011 to now",
+                "date":"March 2011 to now",
                 "title":"<strong>Software Engineer</strong>",
                 "place":"PunchTab, <em>Palo Alto, CA, USA</em>",
-                "description": "",
+                "description": "Joined early-stage startup to build an omni-channel loyalty and engagement platform",
                 "value": [
-                    "Develop APIs to manage loyalty program mechanisms (leaderboard, points, rewards)",
-                    "Create JavaScript SDK for publishers and internal teams",
-                    "Reward end-user actions on third party websites such as Facebook, Twitter and Instagram",
-                    "Build internal tools: custom front-end framework for designers and deployment bot",
-                    "Develop micro-sites with PunchTab technology for customers, from hosting to support."
-                ],
-                "technologies": ["Django", "MySQL", "mongoDB", "Postgres", "redis", "angular", "Foundation"]
-            },
-            {
-                "key":"punchtab_intern",
-                "date":"March to Sept. 2011",
-                "title":"<strong>Software Engineer Intern</strong>",
-                "place":"PunchTab, <em>Menlo Park, CA, USA</em>",
-                "description": "Designed, developed and maintained the early product (4 months-old) working on the fullstack from databases to front-end and customer support.",
-                "value": []
+                    "Created APIs to manage loyalty program mechanisms (leaderboard, points, rewards)",
+                    "Created third-party Javascript library based on cross iframes communication throught events. Installed on 10k+ websites reaching 25M users",
+                    "Rewarded and stored end-user actions from third party websites such as Facebook, Twitter, Instagram and Shopify",
+                    "CMS to create promotional campaigns handling design customizations",
+                    "Built internal tools: custom front-end framework for designers and deployment bot",
+                    "Built micro-sites with PunchTab technology for customers, from hosting to support"
+                ]
             },
             {
                 "key": "dawan",
@@ -59,8 +51,7 @@
                 "description": "Joined an engineering team to implement an e-commerce website according to specifications.",
                 "value": [
                     "integrate an existing project using Java/J2EE"
-                ],
-                "technologies": []
+                ]
             },
             {
                 "key": "false",
@@ -78,12 +69,39 @@
         "title":"Computer Skills",
         "key":"computer",
         "skill": [
-            {"key":"web","title":"Web Technologies","value":"JavaScript (angular, react), html, css"},
-            {"key":"programming","title":"Programming Languages","value":"Python, Node.js, Java, C#, C, C++"},
-            {"key":"frameworks","title":"Frameworks","value":"Django, Express"},
-            {"key":"database","title":"Databases","value":"MySQL, mongoDB, Postgres, Redis"},
-            {"key":"tools","title":"Tools","value":"vim, git, LaTeX"}
+            {"key":"programming","title":"Languages","value":"Python, Javascript and familiar with PHP, Java, C#, C, C++"},
+            {"key":"backend","title":"Backend Frameworks","value":"Django, Flask, Express"},
+            {"key":"frontend","title":"Frontend Frameworks","value":"React, d3, jQuery, Foundation, Angular"},
+            {"key":"database","title":"Databases","value":"MySQL, Postgres, MongoDB, Redis"},
+            {"key":"tools","title":"Tools","value":"vim, git, bash"}
         ]
+     },
+     {
+         "title": "Side Projects",
+         "key": "side_projects",
+         "experience": [
+             {
+                "key": "travelbook",
+                "title": "<strong>Travelbook</strong>",
+                "place": "<a href=\"https://github.com/boertel/travelbook\" target=\"_target\">github.com/boertel/travelbook</a>",
+                "description": "Translate a journey with spatial (map) and temporal (days) components in a website.",
+                "value": [
+                    "UI/UX research to communicate the journey through a website",
+                    "Only frontend technologies (React, Mapbox) and rely on github to store data and images",
+                    "Extract GPS data and image processing"
+                ]
+             },
+             {
+                "key": "worldcup",
+                "title": "<strong>World Cup 2014</strong>",
+                "place": "<a href=\"https://boertel-worldcup.herokuapp.com\" target=\"_target\">boertel-worldcup.herokuapp.com</a>",
+                "description": "Friendly betting website for FIFA world cup 2014 and then for Premier League 2014",
+                "value": [
+                    "Facebook Authentication and used Facebook Score API to handle friends leaderboard",
+                    "Built with Node.js/Express and jade templating engine on the backend, and angular and purecss.io on the frontend"
+                ]
+             }
+         ]
      },
      {
         "title":"Education",
@@ -114,8 +132,8 @@
         "key":"language",
         "skill": [
             {"key":"french","title":"French","value":"mother tongue<span class=\"hidden\"> - Aller à la version francaise</span>"},
-            {"key":"english","title":"English","value":"fluent (studied for 11 years)<span class=\"hidden\"> - Switch to the English version</span>"},
-            {"key":"","title":"German","value":"read <span class=\"amp\">&amp;</span> write (studied for 9 years)<span class=\"hidden\"> - Zur deutschen Version</span>"}
+            {"key":"english","title":"English","value":"fluent<span class=\"hidden\"> - Switch to the English version</span>"},
+            {"key":"","title":"German","value":"interest (studied for 9 years)<span class=\"hidden\"> - Zur deutschen Version</span>"}
         ]
     },
     {
@@ -125,12 +143,12 @@
             {
                 "key":"",
                 "title":"Sport",
-                "value":"running, tennis and most of racket sports"
+                "value":"running, biking, tennis and most of racket sports"
             },
             {
                 "key":"",
                 "title":"Reading",
-                "value":"science-fiction, fiction and historical books"
+                "value":"science-fiction, novel and historical books"
             }
         ]
     }

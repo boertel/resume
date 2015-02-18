@@ -1,14 +1,14 @@
 body {
     background: #EBEBEB;
     color: #333;
-    font-size: 11.0pt;
     margin: 0;
     font-family: Georgia, Serif;
 }
 body, table, a {
 	color: #000000;
 	font-family: Georgia, serif;
-	font-size: 10.5pt;
+    font-size: 14px;
+    line-height: 1.2em;
 	text-decoration: none;
 }
 a {
@@ -23,7 +23,7 @@ span {
     color: #666;
 }
 small {
-    font-size: 9.0pt;
+    font-size: 0.8em;
 }
 h1, h2, h3 {
 	font-family: "Book Antiqua", Georgia;
@@ -44,17 +44,13 @@ h2 {
 	color: #2a4fa2;
 	font-size: 21px;
 	font-weight: bold;
-	padding: 20px 0px 4px 10px;
-	margin: 0px 0px 5px 0px;
-    width: 98%;
+	padding: 20px 0px 6px 0px;
+	margin: 0px 0px 0px 0px;
 }
 h3 {
     font-size: 24px;
     color: #333;
     padding: 4px;
-}
-li {
-    margin: 2px 0;
 }
 span.amp {
    font-family: Baskerville,"Goudy Old Style","Palatino","Book Antiqua",serif;
@@ -74,13 +70,8 @@ span.amp {
 #title {
     cursor: help;
 }
-#extendable:hover {
-    cursor: help;
-}
-
-.experience, li.skill, #personal li {
-    padding: 2px;
-    padding-left: 20px;
+.section {
+    margin: 0.5em 20px 0 20px;
 }
 
 .hidden {
@@ -93,9 +84,7 @@ span.amp {
 .fluo {
     text-decoration: underline;
 }
-.value li:before {
-    content: '- ';
-}
+
 
 .name {
     float: left;
@@ -118,29 +107,40 @@ span.amp {
 
 /* Experience */
 .experience {
-    margin-bottom: 6px;
     overflow: hidden;
 }
-.experience .bar {
+.experience .header {
+    overflow: hidden;
+    margin-bottom: 0.6em;
 }
-.experience div {
+.experience .title {
     float: left;
-    margin-bottom: 2px;
+}
+.experience .date {
+    float: right;
+    text-align: right;
 }
 .experience .description,
 .experience .value {
-    float: left;
     text-align: justify;
 }
 .experience .description {
-    margin-bottom: 10px;
-    margin-left: 165px;
-    margin-right: 20px;
-    line-height: 1.3em;
+    margin-bottom: 0.5em;
+}
+.experience .value {
+    list-style: disc;
+    margin-bottom: 1.3em;
+}
+ul.value li {
+    margin-left: 2em;
+    margin-bottom: 5px;
 }
 
 
 /* Skill */
+li.skill {
+    margin-bottom: 0.4em;
+}
 li.skill div {
     float: left;
 }
@@ -149,20 +149,7 @@ li.skill div {
 .education .date {
     width: 80px;
 }
-.education .value {
-    margin-left: 115px;
-}
 
-.professional .date {
-    width: 150px;
-}
-.professional .value {
-    margin-left: 185px;
-}
-
-.professional .value li {
-    margin-bottom: 5px;
-}
 
 .computer .title {
     width: 180px;
@@ -174,17 +161,10 @@ li.skill div {
     width: 80px;
 }
 
-#personal {
-    float: left;
-    width: 270px;
-    margin-right: 10px;
-}
 #title {
     font-variant: small-caps;
-    width: 55%;
-    margin-top: 60px;
+    margin-top: 10px;
     text-align: center;
-    float: left;
 }
 
 /* Layout */
@@ -193,32 +173,4 @@ li.skill div {
     background-color: #fff;
     padding: 20px;
     margin: 20px auto;
-}
-
-#footer {
-    text-align:center;
-    margin: 30px 0;
-    color: #666;
-}
-
-/* Standard */
-#more, #more a {
-    font-size: 15px;
-    text-align: justify;
-    line-height: 1.5em;
-}
-#more {
-    min-width: 500px;
-    margin: 10px;
-    position: fixed;
-}
-h4 {
-    font-size: 29px;
-    margin: 10px 0 25px 0;
-}
-#content p {
-    text-indent: 2em;
-}
-#content ul {
-    margin-left: 25px;
 }

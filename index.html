@@ -50,13 +50,6 @@
         <li {{#key}}id="{{key}}" class="extend"{{/key}}>{{{value}}}</li>
         {{/contact}}
     </ul>
-    <br>
-    <ul>
-        {{#other}}
-        <li {{#key}}id="{{key}}" class="extend"{{/key}}>{{{value}}}</li>
-        {{/other}}
-    </ul>
-    <br>
     {{/personal}}
 </script>
 
@@ -66,27 +59,25 @@
     <div class="section">
         <ul class="{{ key }}">
         {{#experience}}
-            <li class="experience {{#key}}extend{{/key}}" {{#key}}id="{{key}}"{{/key}}>
-                <div class="bar">
-                    <div class="header">
-                        <div class="date">{{date}}</div>
-                        <div class="separator">:</div>
-                        <div class="title">{{{title}}} -&nbsp;</div>
-                    </div>
-                    <div class="place">{{{place}}}</div>
+            <li class="experience" {{#key}}id="{{key}}"{{/key}}>
+                <div class="header">
+                    <div class="title">{{{title}}},&nbsp;{{{place}}}</div>
+                    <div class="date">{{date}}</div>
                 </div>
                 {{#description}}
                 <p class="description">{{{description}}}</p>
                 {{/description}}
+                {{#value.length}}
                 <ul class="value">
                 {{#value}}
                     <li>{{{.}}}</li>
                 {{/value}}
                 </ul>
+                {{/value.length}}
             </li>
         {{/experience}}
         {{#skill}}
-            <li class="skill {{#key}}extend{{/key}}" {{#key}}id="{{key}}"{{/key}}>
+            <li class="skill" {{#key}}id="{{key}}"{{/key}}>
                 {{#title}}
                 <div class="title"><em>{{title}}</em></div>
                 <div class="separator">:</div>
@@ -98,21 +89,6 @@
         </ul>
     </div>
     {{/category}}
-</script>
-
-<script id="template-more" data-anchor="content" type="text/html">
-    {{#title}}<h4>{{{title}}}</h4>{{/title}}
-    {{#text}}<p>{{{text}}}</p>{{/text}}
-    <ul class="link">
-    {{#link}}
-        {{#url}}
-            <li><a href="{{ url }}" target="_blank">{{{title}}}</a></li>
-        {{/url}}
-        {{^url}}
-            <li>{{{title}}}</li>
-        {{/url}}
-    {{/link}}
-    </ul>
 </script>
 <!-- TEMPLATES -->
 
