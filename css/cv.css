@@ -126,6 +126,10 @@ span.amp {
 .contact {
     float: left;
 }
+.contact li {
+    margin-bottom: 0.3em;
+    line-height: 1.3em;
+}
 .social {
     float: right;
 }
@@ -146,7 +150,7 @@ span.amp {
 
 /* eXPERIENCE */
 .experience .value {
-    margin-bottom: 1.2em;
+    margin-bottom: 1.4em;
 }
 .experience .header {
     overflow: hidden;
@@ -173,6 +177,7 @@ span.amp {
 ul.value li {
     margin-left: 2em;
     margin-bottom: 0.3em;
+    line-height: 1.3em;
 }
 
 
