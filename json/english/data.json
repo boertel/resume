@@ -33,7 +33,7 @@
                     "date":"March 2011 to now",
                     "title":"<strong>Software Engineer</strong>",
                     "place":"PunchTab, <em>Palo Alto, CA, USA</em>",
-                    "description": "Joined early-stage startup to build an omni-channel loyalty and engagement platform",
+                    "description": "Joined early-stage startup to build an omni-channel loyalty and engagement platform.",
                     "value": [
                         "Created APIs to manage loyalty program mechanisms (leaderboard, points, rewards)",
                         "Created third-party Javascript library based on events for cross iframes communications. Installed on 10k+ websites reaching 25M users",
@@ -59,7 +59,7 @@
                     "date": "April to July 2008",
                     "title": "<strong>Developer Intern</strong>",
                     "place": "Sermat, <em>Montaigu, France</em>",
-                    "description": "Worked in an IT department of a none IT company to develop applications relying heavily on multiple databases",
+                    "description": "Worked in an IT department of a none IT company to develop applications relying heavily on multiple databases.",
                     "value": [
                         "Defined specifications from employee feedbacks",
                         "Built applications using SQL Server and Access"
@@ -97,7 +97,7 @@
                     "key": "worldcup",
                     "title": "<strong>World Cup 2014</strong>",
                     "place": "<a href=\"https://boertel-worldcup.herokuapp.com\" target=\"_target\">boertel-worldcup.herokuapp.com</a>",
-                    "description": "Friendly betting website for FIFA world cup 2014 and then for Premier League 2014",
+                    "description": "Friendly betting website for FIFA world cup 2014 and then for Premier League 2014.",
                     "value": [
                         "Facebook Authentication and Facebook Score API to handle friends leaderboard",
                         "Built with Node.js/Express on the backend, and angular and purecss.io on the frontend"
