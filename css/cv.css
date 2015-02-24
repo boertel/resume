@@ -126,6 +126,9 @@ span.amp {
 .contact {
     float: left;
 }
+.contact ul {
+    margin-bottom: 1em;
+}
 .contact li {
     margin-bottom: 0.3em;
     line-height: 1.3em;

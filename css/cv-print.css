@@ -5,14 +5,31 @@ body {
     font-size: 13px;
 }
 
+#wrapper {
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#header {
+    margin-bottom: 0.5em;
+}
+
+#personal {
+    margin-bottom: 1.5em;
+}
+.contact ul {
+    margin-bottom: 0.5em;
+}
+.section {
+    margin-bottom: 1.6em;
+}
+
 .fluo {
     text-decoration: none;
 }
 
 /* Hide some stuff */
-#wrapper {
-    margin: 0;
-}
 .show-on-print {
     display: block;
 }
