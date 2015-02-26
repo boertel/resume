@@ -1,119 +1,149 @@
 {
-    "title":"Software Engineer",
-    "image":"",
+    "job":"Ingénieur Informatique",
+    "image":"https://s.gravatar.com/avatar/a011b6b54ec2c1852f927b7d0f26318b?s=160",
     "name":"Benjamin Oertel",
     "personal": {
         "location": [
-            {"key":"live","value":"<span>Lives in</span> Palo Alto, CA, USA"},
-            {"key":"from","value":"<span>From</span> Nantes, France"}
+            {"key":"live","value":"San Francisco, CA, USA"}
         ],
         "contact": [
-            {"key":"skype","value":"ben.oertel <small>(Skype)</small>"},
             {"key":"","value":"+1 (650) 739-6361"},
-            {"key":"email","value":"benjamin.oertel@gmail.com"}
-        ],
-        "other": [
-            {"key":"birthday","value":"26 November 1988"},
-            {"key":"","value":"Driver license"}
+            {"key":"email","value":"<a href=\"mailto:benjamin.oertel@gmail.com?subject=Hi\">benjamin.oertel@gmail.com</a>"}
         ]
     },
-    "education": {
-        "title":"Education",
-        "key":"education",
-        "experience": [
-            {
-                "key":"erasmus",
-                "date":"Fall 2010",
-                "title":"<strong>One semester, Erasmus Program</strong>",
-                "place":"<em>Linnæus University, Växjö, Sweden</em>",
-                "value":["<em>Courses</em> : Object Oriented C#, Software from Components, Web services and Applied Program Analysis."]
-            },
-            {
-                "key":"polytech",
-                "date":"2008 - 2011",
-                "title":"<strong>School of Computer Science and Engineering</strong>",
-                "place":"<em>Polytechnic School of Nantes University, France</em>",
-                "value":["<em>Project</em> : Creation of a Microsoft Exchange plug-in for YouSendIt."]
-            },
-            {
-                "key":"polytech",
-                "date":"2006 - 2008",
-                "title":"<strong>Two-year degree in Computer Science</strong>",
-                "place":"<em>University Institute of Technology, Nantes, France</em>",
-                "value":["<em>Project</em> : Website for a sport association using PHP and MySQL."]
-            },
-            {
-                "key":"",
-                "date":"2006 - 2008",
-                "title":"<strong>Scientific Baccalauréat (French High School Diploma)</strong>",
-                "place":"<em>Lycée Jeanne d'Arc, Montaigu, France</em>"
-            }
-        ]
-    },
-    "computer": {
-        "title":"Computer Skills",
-        "key":"computer",
-        "skill": [
-            {"key":"programming","title":"Programming Languages","value":"Python, Java, C#, C++, Objective-C, C, Ada"},
-            {"key":"web","title":"Web Technologies","value":"php, jsp, javascript (pure and librairies), html, css"},
-            {"key":"framework","title":"Frameworks","value":"Django, Hibernate, Spring, Struts 2, JEE"},
-            {"key":"database","title":"Databases","value":"Mongo DB, MySQL, Oracle, SQL Server, Access"},
-            {"key":"","title":"Specifications","value":"UML, Merise"},
-            {"key":"os","title":"Operating Systems","value":"Mac OS X, Unix/Linux, Windows"},
-            {"key":"ide","title":"Development Environments","value":"Eclipse, Visual Studio, Xcode"},
-            {"key":"tools","title":"Tools","value":"LaTeX, vim, git"},
-            {"key":"","title":"Applications","value":"Adobe Photoshop, Microsoft Office/iWork"}
-        ]
-     },
-    "professional": {
-        "title":"Professional Experiences",
-        "key":"professional",
-        "experience": [
-            {
-                "key":"punchtab",
-                "date":"September 2011 to now",
-                "title":"<strong>Software Engineer</strong>",
-                "place":"PunchTab, <em>Palo Alto, CA, USA</em>",
-                "value":["Working on the backend of Punchtab.com with the APIs and databases"]
-            },
-            {
-                "key":"punchtab_intern",
-                "date":"March to Sep. 2011",
-                "title":"<strong>Software Engineer Intern</strong>",
-                "place":"PunchTab, <em>Menlo Park, CA, USA</em>",
-                "value":["Working on the backend of Punchtab.com with the APIs and databases"]
-            },
-            {
-                "key":"dawan",
-                "date":"June to August 2011",
-                "title":"<strong>Developer Intern in an IT company</strong>",
-                "place":"Dawan, <em>Nantes, France</em>",
-                "value":["Integration in a development team and work on an e-commerce website using Java/JEE."]
-            },
-            {
-                "key":"",
-                "date":"April to July 2008",
-                "title":"<strong>Intern in an IT Department</strong>",
-                "place":"Sermat, <em>Montaigu, France</em>",
-                "value":["Microsoft Access softwares using SQL Server","Use of Visual FoxPro database to create a file to supply a production machine","Daily maintenance of employees computer problems"]
-            }
-        ]
-    },
-    "language": {
-        "title":"Languages",
-        "key":"language",
-        "skill": [
-            {"key":"french","title":"French","value":"mother tongue<span class=\"hidden\"> - Aller à la version francaise</span>"},
-            {"key":"english","title":"English","value":"fluent (studied for 11 years)<span class=\"hidden\"> - Switch to the English version</span>"},
-            {"key":"","title":"German","value":"read & write (studied for 9 years)<span class=\"hidden\"> - Zur deutschen Version</span>"}
-        ]
-     },
-    "interest": {
-        "title":"Interests",
-        "key":"interest",
-        "skill": [
-            {"key":"graphism","title":"Graphism","value":"design, web design, user interface, drawing"},
-            {"key":"","title":"Sport","value":"tennis (competition) and most of racket sports"}
-        ]
-    }
+    "social": [
+        {
+            "key": "github",
+            "href": "https://github.com/boertel",
+            "value": "GitHub"
+        },
+        {
+            "key": "twitter",
+            "href": "https://twitter.com/boertel",
+            "value": "Twitter"
+        },
+        {
+            "key": "linkedin",
+            "href": "https://linkedin.com/en/boertel",
+            "value": "Linked In"
+
+        }
+    ],
+    "category": [
+        {
+            "title":"Expériences professionelles",
+            "key":"professional",
+            "experience": [
+                {
+                    "key":"punchtab",
+                    "date":"Mars 2011 à maintenant",
+                    "title":"<strong>Ingénieur informatique</strong>",
+                    "place":"PunchTab, <em>Palo Alto, CA, USA</em>",
+                    "description": "Rejoins une jeune startup pour construire une platforme de fidélité et .",
+                    "value": [
+                        "Créer des APIs pour gérer les mécanismes de programmes de fidélité (classements, points, récompenses/coupons).",
+                        "Créer une bibliothèque Javascript utilisant des événements pour la communication entre iframes. Installée sur plus de dix milles sites Internet, accédé par 25 millions d'utilisateurs.",
+                        "Capturer et stocker les actions utilisateur venant de plateformes tierces comme Facebook, Twitter, Instagram et Shopify.",
+                        "CMS pour créer des campagnes promotionelles en ligne.",
+                        "Construire des outils internes: frontend framework pour développeurs et designers, robot pour Campfire facilitant les deploiements en production.",
+                        "Construire des sites Internet statiques pour des clients en utilisant la technologie PunchTab, de l'hébergement au question de support et bugs."
+                    ]
+                },
+                {
+                    "key": "dawan",
+                    "date": "Juin à août 2010",
+                    "title": "<strong>Développeur stagiaire</strong>",
+                    "place": "Dawan, <em>Nantes, France</em>",
+                    "description": "Rejoins une équipe d'ingénieurs pour une SSII pour implémenter un site e-commerce et de comparaisons de prix.",
+                    "value": [
+                        "Intégrer l'internationalization du code Java existant.",
+                        "Construire l'interface utilisateur pour gérer les commandes."
+                    ]
+                },
+                {
+                    "key": "sermat",
+                    "date": "Avril à juillet 2008",
+                    "title": "<strong>Développeur stagiaire</strong>",
+                    "place": "Sermat, <em>Montaigu, France</em>",
+                    "description": "Travaille dans un département informatique d'une entreprise de fabrication de fenêtres pour développer des applications utilisant plusieurs bases de données.",
+                    "value": [
+                        "Définir les spécifications à partir de discussions et retours des employés sur les applications existantes ou désirées.",
+                        "Construire des logiciels utilisant SQL Server et Microsoft Access pour l'interface utilisateur."
+                    ]
+                }
+            ]
+        },
+        {
+            "title":"Compétences",
+            "key":"computer",
+            "skill": [
+                {"key":"programming","title":"Langages","value":"Python, Javascript et familier avec PHP, Java, C#, C, C++"},
+                {"key":"backend","title":"Frameworks backend","value":"Django, Flask, Express"},
+                {"key":"frontend","title":"Frameworks frontend","value":"React, d3, jQuery, Foundation, Angular"},
+                {"key":"database","title":"Bases de données","value":"MySQL, Postgres, MongoDB, Redis"},
+                {"key":"tools","title":"Outils","value":"vim, git, bash, Unix, Vagrant"}
+            ]
+         },
+         {
+             "title": "Projets",
+             "key": "side_projects",
+             "experience": [
+                 {
+                    "key": "travelbook",
+                    "title": "<strong>Travelbook</strong>",
+                    "place": "<a href=\"https://github.com/boertel/travelbook\" target=\"_target\">github.com/boertel/travelbook</a>",
+                    "description": "Traduire un voyage avec des composants spatiale (carte géographique) et temporelle (journées) .",
+                    "value": [
+                        "Recherche pour l'UI/UX pour communiquer le voyage à travers le site.",
+                        "Fondé seulement sur des technologies frontend (React et Mapbox) et sur GitHub pour les données et images.",
+                        "Extraire les données GPS d'une image et manipuler les images pour génerer les données."
+                    ]
+                 },
+                 {
+                    "key": "worldcup",
+                    "title": "<strong>World Cup 2014</strong>",
+                    "place": "<a href=\"https://boertel-worldcup.herokuapp.com\" target=\"_target\">boertel-worldcup.herokuapp.com</a>",
+                    "description": "Site de pari pour la coupe de monde de football 2014 puis adpater au championnat anglais.",
+                    "value": [
+                        "authentication avec Facebook et gérer les scores et classements avec Facebook Score API.",
+                        "Construit avec Node.js/Express pour le backend, et angular et purecss.io pour le frontend"
+                    ]
+                 }
+             ]
+         },
+         {
+            "title": "Éducation",
+            "key":"education",
+            "experience": [
+                {
+                    "key":"erasmus",
+                    "date": "Automne 2010",
+                    "title":"<strong>Un semestre en Suède dans le cadre d'Erasmus</strong>",
+                    "place":"<em>Linnæus University, Växjö, Sweden</em>"
+                },
+                {
+                    "key":"polytech",
+                    "date":"2008 - 2011",
+                    "title":"<strong>Diplôme d'ingénieur informatique</strong>",
+                    "place":"<em>Polytech' Nantes, France</em>"
+                },
+                {
+                    "key":"iut",
+                    "date":"2006 - 2008",
+                    "title":"<strong>DUT en informatique</strong>",
+                    "place":"<em>IUT de Nantes, France</em>"
+                }
+            ]
+        },
+        {
+            "title":"Langues",
+            "key":"language",
+            "skill": [
+                {"key":"french","title":"Français","value":"langue maternelle<span class=\"hidden\"> - Aller à la version francaise</span>"},
+                {"key":"english","title":"Anglais","value":"courant<span class=\"hidden\"> - Switch to the English version</span>"},
+                {"key":"","title":"Allemand","value":"connaissances (étudié pendant 9 ans)"}
+            ]
+        }
+    ]
 }
+
