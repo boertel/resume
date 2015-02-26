@@ -21,6 +21,12 @@
             "key": "twitter",
             "href": "https://twitter.com/boertel",
             "value": "Twitter"
+        },
+        {
+            "key": "linkedin",
+            "href": "https://linkedin.com/en/boertel",
+            "value": "Linked In"
+
         }
     ],
     "category": [

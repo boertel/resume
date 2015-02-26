@@ -135,6 +135,7 @@ span.amp {
 }
 .social {
     float: right;
+    text-align: right;
 }
 .social > div {
     margin-bottom: 6px;
