@@ -139,8 +139,9 @@
             "title":"Langues",
             "key":"language",
             "skill": [
-                {"key":"french","title":"Français","value":"langue maternelle<span class=\"hidden\"> - Aller à la version francaise</span>"},
-                {"key":"english","title":"Anglais","value":"courant<span class=\"hidden\"> - Switch to the English version</span>"},
+
+                {"key":"french","title":"Français","value":"langue maternelle<span class=\"hidden\"> - <a href=\"#french\">Aller à la version francaise</a></span>"},
+                {"key":"english","title":"Anglais", "value":"courant<span class=\"hidden\"> - <a href=\"#english\">Switch to the English version</a></span>"},
                 {"key":"","title":"Allemand","value":"connaissances (étudié pendant 9 ans)"}
             ]
         }

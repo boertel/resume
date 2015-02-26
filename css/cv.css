@@ -71,7 +71,8 @@ span.amp {
 .separator {
     margin: 0 5px;
 }
-.hidden {
+.hidden,
+.hidden a {
     display: inline;
     font-style: normal;
     font-family: 'Lucida Grande', sans-serif;
