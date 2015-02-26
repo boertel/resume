@@ -101,6 +101,9 @@ span.amp {
 .fluo {
     text-decoration: underline;
 }
+.language .title:hover {
+    cursor: pointer;
+}
 
 
 

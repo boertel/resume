@@ -1,7 +1,6 @@
 function load_json(language) {
     $.getJSON('json/' + language + '/data.json', function (data) {
 
-
         var templateHeader = new Barbe.View('template-social', {data:
             {
                 name: data.name,
@@ -20,30 +19,20 @@ function load_json(language) {
         }).grow();
 
         var templateCategory = new Barbe.View("template-category", {data: data}).grow(function () {
-            $('.language .title').removeClass('fluo');
-            $('#'+language+' .title').addClass('fluo');
+            $('#' + language).find('.title').addClass('fluo');
         });
 
-        $(".extend").click(function () {
-            var key = $(this).attr("id");
-            // special Key
-            if (key === 'french' || key === 'english' || key === 'german') {
-                load_json(key);
-                return;
-            }
-
-            var that = $(this);
-
-            var templateExtend = new Barbe.View("template-more", {
-                data: {r: Math.random()},
-                url: 'json/' + language + '/' + key + '.json',
-                error: function () {
-                    return false;
-                }
-            }).grow()
-        });
     });
 }
+
+$(document).on('click', '.language li', function (e) {
+    e.preventDefault();
+    var language = $(this).attr('id');
+    if (language) {
+        load_json(language);
+    }
+    return false;
+});
 
 
 // Main
