@@ -36,16 +36,25 @@
             "experience": [
                 {
                     "key":"punchtab",
-                    "date":"March 2011 to now",
+                    "date":"May 2012 to now",
                     "title":"<strong>Software Engineer</strong>",
                     "place":"PunchTab, <em>Palo Alto, CA, USA</em>",
                     "description": "Joined early-stage startup to build an omni-channel loyalty and engagement platform.",
                     "value": [
-                        "Created APIs to manage loyalty program mechanisms (leaderboard, points, rewards)",
                         "Created third-party Javascript library based on events for cross iframes communications. Installed on 10k+ websites reaching 25M users",
-                        "Rewarded and stored end-user actions from third party websites such as Facebook, Twitter, Instagram and Shopify",
                         "CMS to create promotional campaigns handling configuration and design customizations",
-                        "Built internal tools: custom frontend framework used by developers and designers, Campfire deployment bot",
+                        "Built internal tools: custom frontend framework used by developers and designers, Campfire deployment bot"
+                    ]
+                },
+                {
+                    "key": "punchtab_internship",
+                    "date": "March 2011 to April 2012",
+                    "title": "<strong>Software Engineer Intern</strong>",
+                    "place": "PunchTab, <em>Menlo Park, CA, USA</em>",
+                    "description": "",
+                    "value": [
+                        "Created APIs to manage loyalty program mechanisms (leaderboard, points, rewards)",
+                        "Rewarded and stored end-user actions from third party websites such as Facebook, Twitter, Instagram and Shopify",
                         "Built micro-sites with PunchTab technology for customers, from hosting to support"
                     ]
                 },
@@ -95,18 +104,16 @@
                     "description": "Translate a journey with spatial (map) and temporal (days) components in a website.",
                     "value": [
                         "UI/UX research to communicate the journey through a website",
-                        "Only frontend technologies (React, Mapbox) and rely on github to store data and images",
-                        "Extract GPS data and process images to generate data"
+                        "Only frontend technologies (React, Mapbox) and rely on github to store data and images"
                     ]
                  },
                  {
                     "key": "worldcup",
                     "title": "<strong>World Cup 2014</strong>",
                     "place": "<a href=\"https://boertel-worldcup.herokuapp.com\" target=\"_target\">boertel-worldcup.herokuapp.com</a>",
-                    "description": "Friendly betting website for FIFA world cup 2014 and then for Premier League 2014.",
+                    "description": "Friendly predictor website for FIFA world cup 2014 and then for Premier League 2014.",
                     "value": [
-                        "Facebook Authentication and Facebook Score API to handle friends leaderboard",
-                        "Built with Node.js/Express on the backend, and angular and purecss.io on the frontend"
+                        "Built with Node.js/Express and Facebook authentication on the backend, and angular and purecss.io on the frontend"
                     ]
                  }
              ]
