@@ -1,5 +1,5 @@
-function load_json(language) {
-    language = language || document.location.hash.replace('#', '') || 'english';
+function load_json() {
+    language = document.location.hash.replace('#', '') || 'english';
 
     var file = language + '.json';
     $.getJSON('data/' + file, function (data) {
