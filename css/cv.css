@@ -111,7 +111,7 @@ span.amp {
 
 /* HEADER */
 #header {
-    margin-bottom: 2.5em;
+    margin-bottom: 2em;
 }
 .job {
     cursor: help;
@@ -125,7 +125,7 @@ span.amp {
 
 /* CONTACT */
 #personal {
-    margin-bottom: 2.5em;
+    margin-bottom: 2em;
 }
 .contact {
     float: left;
@@ -157,7 +157,7 @@ span.amp {
 
 
 /* eXPERIENCE */
-.experience .value {
+.experience {
     margin-bottom: 1.4em;
 }
 .experience .header {
@@ -198,6 +198,10 @@ li.skill div {
 }
 
 /* CUSTOM */
+.education .experience {
+    margin-bottom: 0;
+}
+
 .education .date {
     width: 100px;
 }

@@ -2,7 +2,7 @@ function load_json() {
     language = document.location.hash.replace('#', '') || 'english';
 
     var file = language + '.json';
-    $.getJSON('data/' + file, function (data) {
+    var success = function (data) {
         var templateHeader = new Barbe.View('template-title', {data: data}).grow();
 
         var templatePersonal = new Barbe.View("template-personal", {data: data}).grow();
@@ -11,6 +11,13 @@ function load_json() {
             $('#' + language).find('.title').addClass('fluo');
         });
 
+    };
+
+    $.ajax({
+        url: 'data/' + file,
+        dataType: 'json',
+        success: success,
+        error: function() { console.log(arguments); }
     });
 }
 
