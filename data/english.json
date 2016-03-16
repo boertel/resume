@@ -40,6 +40,7 @@
                     "title":"<strong>Software Engineer</strong>",
                     "place":"CoMedia Design, <em>San Francisco, CA, USA</em>",
                     "description": "Partner in design and development agency",
+                    "logo": "http://www.comediadesign.com/images/comedia%20logo.png",
                     "value": [
                         "Work as a contractor for Hightail to build proof-of-concept products such as analytics dashboard, search tool, print version of the file views and adminstration console.",
                         "iOS App built with React Native to share locations with co-workers backed with a API server built with Django framework",
@@ -52,6 +53,7 @@
                     "title":"<strong>Software Engineer</strong>",
                     "place":"PunchTab, <em>Palo Alto, CA, USA</em>",
                     "description": "Joined early-stage startup to build an omni-channel loyalty and engagement platform.",
+                    "logo": "http://www.punchtab.com/img/logo-red-ribbon.png",
                     "value": [
                         "Designed APIs to manage loyalty program mechanisms (leaderboard, points, rewards)",
                         "Created a third-party Javascript library for cross domain iframe communications that have been installed on over 10K websites with a reach of 25M users",
