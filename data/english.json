@@ -84,9 +84,9 @@
             "skill": [
                 {"key":"programming","title":"Languages","value":"Python, Javascript and familiar with PHP, Java, C#, C, C++"},
                 {"key":"backend","title":"Backend Frameworks","value":"Django, Flask, Express"},
-                {"key":"frontend","title":"Frontend Frameworks","value":"React, d3, jQuery, Foundation"},
-                {"key":"database","title":"Databases","value":"MySQL, Postgres, MongoDB, Redis"},
-                {"key":"tools","title":"Tools","value":"vim, git, bash, Unix system, Vagrant"}
+                {"key":"frontend","title":"Frontend Frameworks","value":"React, d3, angular, jQuery, Foundation"},
+                {"key":"database","title":"Databases","value":"Postgres, MySQL, MongoDB, Redis"},
+                {"key":"tools","title":"Tools","value":"vim, git, bash, Unix system, Vagrant, Docker"}
             ]
          },
          {
