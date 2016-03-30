@@ -82,7 +82,7 @@
             "title":"Computer Skills",
             "key":"computer",
             "skill": [
-                {"key":"programming","title":"Languages","value":"Python, Javascript and familiar with PHP, Java, C#, C, C++"},
+                {"key":"programming","title":"Languages","value":"Python, Javascript and familiar with Go, Java, C#, C, C++"},
                 {"key":"backend","title":"Backend Frameworks","value":"Django, Flask, Express"},
                 {"key":"frontend","title":"Frontend Frameworks","value":"React, d3, angular, jQuery, Foundation"},
                 {"key":"database","title":"Databases","value":"Postgres, MySQL, MongoDB, Redis"},
