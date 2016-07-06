@@ -105,9 +105,9 @@
                  },
                  {
                     "key": "worldcup",
-                    "title": "<strong>World Cup 2014</strong>",
-                    "place": "<a href=\"https://boertel-worldcup.herokuapp.com\" target=\"_target\">boertel-worldcup.herokuapp.com</a>",
-                    "description": "Friendly betting website for FIFA world cup 2014 and then for Premier League 2014.",
+                    "title": "<strong>Football betting website</strong>",
+                    "place": "<a href=\"https://eurofoot2016.herokuapp.com\" target=\"_target\">eurofoot2016.herokuapp.com</a>",
+                    "description": "Friendly betting website for FIFA worldcup 2016 and UEFA Euro 2016.",
                     "value": [
                         "Facebook Authentication and Score API to handle friends leaderboard using Node.js/Express and Angular"
                     ]
