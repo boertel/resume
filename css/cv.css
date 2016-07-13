@@ -166,6 +166,7 @@ span.amp {
 }
 .experience .title {
     float: left;
+    font-size: 1.1em;
 }
 .experience .date {
     color: #666;
