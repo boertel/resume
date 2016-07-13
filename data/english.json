@@ -42,7 +42,7 @@
                     "description": "Partner in design and development agency",
                     "logo": "http://www.comediadesign.com/images/comedia%20logo.png",
                     "value": [
-                        "Work as a contractor for Hightail to build proof-of-concept products such as analytics dashboard, search tool, print version of the file views and adminstration console.",
+                        "Work as a contractor for Hightail to build proof-of-concept products such as analytics dashboard, search tool, print version of the file views and administration console.",
                         "iOS App built with React Native to share locations with co-workers backed with a API server built with Django framework",
                         "Physical color picker built with Tornado for realtime and hosted on a Raspberry Pi"
                     ]
@@ -96,7 +96,7 @@
                  {
                     "key": "travelbook",
                     "title": "<strong>Travelbook</strong>",
-                    "place": "<a href=\"https://github.com/boertel/travelbook\" target=\"_target\">github.com/boertel/travelbook</a>",
+                    "place": "<a href=\"http://travelbook.oertel.fr/\" target=\"_target\">http://travelbook.oertel.fr/</a>",
                     "description": "Translate a journey with spatial (map) and temporal (days) components in a website.",
                     "value": [
                         "UI/UX research to communicate the journey through a website by relying on GPS data stored in the photo files",
