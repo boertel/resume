@@ -84,7 +84,8 @@
             "skill": [
                 {"key":"programming","title":"Languages","value":"Python, Javascript and familiar with Go, Java, C#, C, C++"},
                 {"key":"backend","title":"Backend Frameworks","value":"Django, Flask, Express"},
-                {"key":"frontend","title":"Frontend Frameworks","value":"React, d3, angular, jQuery, Foundation"},
+                {"key":"frontend","title":"Frontend Frameworks","value":"React(/Redux), d3, angular, jQuery"},
+                {"key":"mobile","title":"Mobile","value":"React Native"},
                 {"key":"database","title":"Databases","value":"Postgres, MySQL, MongoDB, Redis"},
                 {"key":"tools","title":"Tools","value":"vim, git, bash, Unix system, Vagrant, Docker"}
             ]
@@ -94,9 +95,18 @@
              "key": "side_projects",
              "experience": [
                  {
+                    "key": "ranger",
+                    "title": "<strong>Ranger Oertel</strong>",
+                    "place": "<a href=\"http://ranger.oertel.fr\" target=\"_target\">ranger.oertel.fr</a>",
+                    "description": "Find who took a photography during a trip in Hawaii",
+                    "value": [
+                        "front-end project for desktop and tablet using react, react-router and redux"
+                    ]
+                 },
+                 {
                     "key": "travelbook",
                     "title": "<strong>Travelbook</strong>",
-                    "place": "<a href=\"http://travelbook.oertel.fr/\" target=\"_target\">http://travelbook.oertel.fr/</a>",
+                    "place": "<a href=\"http://travelbook.oertel.fr\" target=\"_target\">travelbook.oertel.fr</a>",
                     "description": "Translate a journey with spatial (map) and temporal (days) components in a website.",
                     "value": [
                         "UI/UX research to communicate the journey through a website by relying on GPS data stored in the photo files",
