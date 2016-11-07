@@ -19,6 +19,8 @@
     <div id="category"></div>
 </div>
 
+<div class="credits hide-on-print">Last updated: July 2016</div>
+
 <!-- TEMPLATES -->
 <script id="template-title" data-anchor="header" type="text/html">
     <div class="name">
@@ -62,10 +64,8 @@
         {{#experience}}
             <li class="experience" {{#key}}id="{{key}}"{{/key}}>
                 <div class="header">
-                    <div style="float: left;">
-                        <div class="title">{{{title}}},&nbsp;{{{place}}}</div>
-                        <div class="date">{{date}}</div>
-                    </div>
+                    <div class="title">{{{title}}},&nbsp;{{{place}}}</div>
+                    <div class="date">{{date}}</div>
                 </div>
                 {{#description}}
                 <p class="description">{{{description}}}</p>

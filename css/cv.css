@@ -36,7 +36,7 @@ h1 {
 	margin: 0px;
 }
 h3 > small {
-    font-size: 13.0pt;
+    font-size: 13px;
     font-variant: normal;
     font-weight: normal;
 }
@@ -83,11 +83,13 @@ span.amp {
 }
 
 /* LAYOUT */
-#wrapper {
+#wrapper, .credits {
     width: 820px;
-    background-color: #fff;
     padding: 20px;
     margin: 20px auto;
+}
+#wrapper {
+    background-color: #fff;
 }
 .section {
     margin-bottom: 2em;
@@ -96,14 +98,17 @@ span.amp {
     margin-bottom: 0;
 }
 
-
-
-
 .fluo {
     text-decoration: underline;
 }
 .language .title:hover {
     cursor: pointer;
+}
+
+.credits {
+    padding: 0;
+    color: #616161;
+    text-align: center;
 }
 
 
@@ -171,7 +176,7 @@ span.amp {
 .experience .date {
     color: #666;
     text-align: right;
-    float: left;
+    float: right;
     margin-left: 1.5em;
 }
 
