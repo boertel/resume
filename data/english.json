@@ -152,8 +152,8 @@
             "title":"Languages",
             "key":"language",
             "skill": [
-                {"key":"french","title":"French","value":"mother tongue<span class=\"hidden\"> - <a href=\"#french\">Aller à la version francaise</a></span>"},
-                {"key":"english","title":"English", "value":"fluent<span class=\"hidden\"> - <a href=\"#english\">Switch to the English version</a></span>"},
+                {"key":"french","title":"French","value":"mother tongue<span class=\"hidden hide-on-print\"> - <a href=\"#french\">Aller à la version francaise</a></span>"},
+                {"key":"english","title":"English", "value":"fluent<span class=\"hidden hide-on-print\"> - <a href=\"#english\">Switch to the English version</a></span>"},
                 {"key":"","title":"German","value":"knowledge (studied for 9 years)"}
             ]
         }
