@@ -36,7 +36,9 @@
             "experience": [
                 {
                     "key":"comedia",
-                    "date":"April 2015 to present",
+                    "date": {
+                        "start": "2015-04-01"
+                    },
                     "title":"<strong>Software Engineer</strong>",
                     "place":"CoMedia Design, <em>San Francisco, CA, USA</em>",
                     "description": "Partner in design and development agency",
@@ -49,7 +51,10 @@
                 },
                 {
                     "key":"punchtab",
-                    "date":"March 2011 to March 2015",
+                    "date": {
+                        "start": "2011-03-01",
+                        "end": "2015-03-31"
+                    },
                     "title":"<strong>Software Engineer</strong>",
                     "place":"PunchTab, <em>Palo Alto, CA, USA</em>",
                     "description": "Joined early-stage startup to build an omni-channel loyalty and engagement platform.",
@@ -64,14 +69,20 @@
                 },
                 {
                     "key": "dawan",
-                    "date": "June to August 2010",
+                    "date": {
+                        "start": "2010-06-01",
+                        "end": "2010-08-31"
+                    },
                     "title": "<strong>Developer Intern</strong>",
                     "place": "Dawan, <em>Nantes, France</em>",
                     "description": "Joined a small engineering team in a IT company to implement an comparison shopping/e-commerce website for a client."
                 },
                 {
                     "key": "sermat",
-                    "date": "April to July 2008",
+                    "date": {
+                        "start": "2008-04-01",
+                        "end": "2008-07-31"
+                    },
                     "title": "<strong>Developer Intern</strong>",
                     "place": "Sermat, <em>Montaigu, France</em>",
                     "description": "Worked in an IT department of a none IT company to develop applications relying heavily on multiple databases."
@@ -130,19 +141,19 @@
             "experience": [
                 {
                     "key":"erasmus",
-                    "date":"Fall 2010",
+                    "strdate":"Fall 2010",
                     "title":"<strong>One semester in Sweden, Erasmus Program</strong>",
                     "place":"<em>Linnæus University, Växjö, Sweden</em>"
                 },
                 {
                     "key":"polytech",
-                    "date":"2008 - 2011",
+                    "strdate":"2008 - 2011",
                     "title":"<strong>Master of Engineering in Computer Science</strong>",
                     "place":"<em>Polytechnic School of Nantes University, France</em>"
                 },
                 {
                     "key":"iut",
-                    "date":"2006 - 2008",
+                    "strdate":"2006 - 2008",
                     "title":"<strong>Two-year degree in Computer Science</strong>",
                     "place":"<em>University Institute of Technology, Nantes, France</em>"
                 }

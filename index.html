@@ -65,7 +65,12 @@
             <li class="experience" {{#key}}id="{{key}}"{{/key}}>
                 <div class="header">
                     <div class="title">{{{title}}},&nbsp;{{{place}}}</div>
-                    <div class="date">{{date}}</div>
+                    {{#date}}
+                    <div class="date" title="{{date.duration}}">{{ date.start }} to {{ date.end }}</div>
+                    {{/date}}
+                    {{#strdate}}
+                    <div class="date">{{ strdate }}</div>
+                    {{/strdate}}
                 </div>
                 {{#description}}
                 <p class="description">{{{description}}}</p>
@@ -96,6 +101,7 @@
 
 <script type="text/javascript" src="./js/jquery-2.2.0.min.js"></script>
 <script type="text/javascript" src="./js/hogan.js"></script>
+<script type="text/javascript" src="./js/moment.min.js"></script>
 <script type="text/javascript" src="./js/barbe.js"></script>
 <script type="text/javascript" src="./js/cv.js"></script>
 
