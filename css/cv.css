@@ -90,6 +90,7 @@ span.amp {
 }
 #wrapper {
     background-color: #fff;
+    min-height: 100%;
 }
 .section {
     margin-bottom: 2em;
