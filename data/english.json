@@ -7,8 +7,8 @@
             {"key":"live","value":"San Francisco, CA, USA"}
         ],
         "contact": [
+            {"key": "website", "value": "<a href=\"http://ben.oertel.fr\" target=\"_blank\">http://ben.oertel.fr</a>"},
             {"key": "", "value":"+1 (650) 739-6361"},
-            {"key": "website", "value": "<a href=\"http://ben.oertel.fr\">http://ben.oertel.fr</a>"},
             {"key": "email", "value":"<a href=\"mailto:benjamin.oertel@gmail.com?subject=Hi\">benjamin.oertel@gmail.com</a>"}
         ]
     },
