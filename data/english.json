@@ -44,7 +44,7 @@
                     "description": "Partner in a design and development agency",
                     "logo": "http://www.comediadesign.com/images/comedia%20logo.png",
                     "value": [
-                        "Work as a contractor for Hightail to build proof-of-concept products such as analytics dashboard, search tool, print version of the file views and administration console.",
+                        "Work as a contractor for Hightail, VMWare and CA Tech to build proof-of-concept and production webapps such as analytics dashboard, search tool and others.",
                         "iOS App built with React Native to share locations with co-workers backed with a API server built with Django framework",
                         "Physical color picker built with Tornado for realtime and hosted on a Raspberry Pi"
                     ]
@@ -128,7 +128,7 @@
                     "key": "worldcup",
                     "title": "<strong>Football betting website</strong>",
                     "place": "<a href=\"https://boertel-worldcup.herokuapp.com\" target=\"_target\">boertel-worldcup.herokuapp.com</a>",
-                    "description": "Friendly betting website for FIFA worldcup 2016 and UEFA Euro 2016.",
+                    "description": "Friendly betting website for FIFA worldcup 2014 and UEFA Euro 2016.",
                     "value": [
                         "Facebook Authentication and Score API to handle friends leaderboard using Node.js/Express and Angular"
                     ]
