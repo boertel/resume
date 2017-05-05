@@ -37,6 +37,9 @@ body {
     display: none;
 }
 
+.category.education {
+    margin-bottom: 0;
+}
 .category.language {
     display: none;
 }
