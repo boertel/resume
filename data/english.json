@@ -8,6 +8,7 @@
         ],
         "contact": [
             {"key":"","value":"+1 (650) 739-6361"},
+            {"key": "website", "value": "http://ben.oertel.fr"},
             {"key":"email","value":"<a href=\"mailto:benjamin.oertel@gmail.com?subject=Hi\">benjamin.oertel@gmail.com</a>"}
         ]
     },
