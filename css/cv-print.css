@@ -21,7 +21,7 @@ body {
 .contact ul {
     margin-bottom: 0.5em;
 }
-.section {
+.category {
     margin-bottom: 1.6em;
 }
 
@@ -34,5 +34,9 @@ body {
     display: block;
 }
 .hide-on-print {
+    display: none;
+}
+
+.category.language {
     display: none;
 }

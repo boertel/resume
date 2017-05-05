@@ -49,8 +49,8 @@
     <div class="social">
         {{#social}}
             <div>
-                <a href="{{ href }}" target="_blank" class="hide-on-print icon icon-{{ key }}"></a>
-                <a href="{{ href }}" target="_blank" class="show-on-print">{{ href }}</a>
+                <a href="http://{{ href }}" target="_blank" class="hide-on-print icon icon-{{ key }}"></a>
+                <a href="http://{{ href }}" target="_blank" class="show-on-print">{{ href }}</a>
             </div>
         {{/social}}
     </div>
@@ -58,42 +58,44 @@
 
 <script id="template-category" data-anchor="category" type="text/html">
     {{#category}}
-    <h2>{{ title }}</h2>
-    <div class="section">
-        <ul class="{{ key }}">
-        {{#experience}}
-            <li class="experience" {{#key}}id="{{key}}"{{/key}}>
-                <div class="header">
-                    <div class="title">{{{title}}},&nbsp;{{{place}}}</div>
-                    {{#date}}
-                    <div class="date" title="{{date.duration}}">{{ date.start }} to {{ date.end }}</div>
-                    {{/date}}
-                    {{#strdate}}
-                    <div class="date">{{ strdate }}</div>
-                    {{/strdate}}
-                </div>
-                {{#description}}
-                <p class="description">{{{description}}}</p>
-                {{/description}}
-                {{#value.length}}
-                <ul class="value">
-                {{#value}}
-                    <li>{{{.}}}</li>
-                {{/value}}
-                </ul>
-                {{/value.length}}
-            </li>
-        {{/experience}}
-        {{#skill}}
-            <li class="skill clearfix"{{#key}} id="{{key}}"{{/key}}>
-                {{#title}}
-                <div class="title"><em>{{title}}</em></div>
-                <div class="separator">:</div>
-                {{/title}}
-                <div class="value">{{{value}}}</div>
-            </li>
-        {{/skill}}
-        </ul>
+    <div class="category {{ key }}">
+        <h2>{{ title }}</h2>
+        <div class="section">
+            <ul>
+            {{#experience}}
+                <li class="experience" {{#key}}id="{{key}}"{{/key}}>
+                    <div class="header">
+                        <div class="title">{{{title}}},&nbsp;{{{place}}}</div>
+                        {{#date}}
+                        <div class="date" title="{{date.duration}}">{{ date.start }} to {{ date.end }}</div>
+                        {{/date}}
+                        {{#strdate}}
+                        <div class="date">{{ strdate }}</div>
+                        {{/strdate}}
+                    </div>
+                    {{#description}}
+                    <p class="description">{{{description}}}</p>
+                    {{/description}}
+                    {{#value.length}}
+                    <ul class="value">
+                    {{#value}}
+                        <li>{{{.}}}</li>
+                    {{/value}}
+                    </ul>
+                    {{/value.length}}
+                </li>
+            {{/experience}}
+            {{#skill}}
+                <li class="skill clearfix"{{#key}} id="{{key}}"{{/key}}>
+                    {{#title}}
+                    <div class="title"><em>{{title}}</em></div>
+                    <div class="separator">:</div>
+                    {{/title}}
+                    <div class="value">{{{value}}}</div>
+                </li>
+            {{/skill}}
+            </ul>
+        </div>
     </div>
     {{/category}}
 </script>

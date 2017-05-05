@@ -7,25 +7,29 @@
             {"key":"live","value":"San Francisco, CA, USA"}
         ],
         "contact": [
-            {"key": "website", "value": "<a href=\"http://ben.oertel.fr\" target=\"_blank\">http://ben.oertel.fr</a>"},
             {"key": "", "value":"+1 (650) 739-6361"},
             {"key": "email", "value":"<a href=\"mailto:benjamin.oertel@gmail.com?subject=Hi\">benjamin.oertel@gmail.com</a>"}
         ]
     },
     "social": [
         {
+            "key": "website",
+            "href": "ben.oertel.fr",
+            "value": "Website"
+        },
+        {
             "key": "github",
-            "href": "https://github.com/boertel",
+            "href": "github.com/boertel",
             "value": "GitHub"
         },
         {
             "key": "twitter",
-            "href": "https://twitter.com/boertel",
+            "href": "twitter.com/boertel",
             "value": "Twitter"
         },
         {
             "key": "linkedin",
-            "href": "https://linkedin.com/in/boertel",
+            "href": "linkedin.com/in/boertel",
             "value": "Linked In"
 
         }

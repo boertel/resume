@@ -92,10 +92,10 @@ span.amp {
     background-color: #fff;
     min-height: 100%;
 }
-.section {
+.category {
     margin-bottom: 2em;
 }
-.section:last-child {
+.category:last-child {
     margin-bottom: 0;
 }
 
@@ -135,6 +135,7 @@ span.amp {
 }
 .contact {
     float: left;
+    margin-top: 1em;
 }
 .contact ul {
     margin-bottom: 1em;
@@ -162,7 +163,7 @@ span.amp {
 }
 
 
-/* eXPERIENCE */
+/* EXPERIENCE */
 .experience {
     margin-bottom: 1.4em;
 }
@@ -231,5 +232,3 @@ li.skill div {
 .interest .title {
     width: 80px;
 }
-
-
