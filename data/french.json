@@ -13,6 +13,11 @@
     },
     "social": [
         {
+            "key": "website",
+            "href": "ben.oertel.fr",
+            "value": "Site Internet"
+        },
+        {
             "key": "github",
             "href": "https://github.com/boertel",
             "value": "GitHub"
@@ -24,7 +29,7 @@
         },
         {
             "key": "linkedin",
-            "href": "https://linkedin.com/en/boertel",
+            "href": "https://linkedin.com/in/boertel",
             "value": "Linked In"
 
         }
@@ -35,41 +40,57 @@
             "key":"professional",
             "experience": [
                 {
-                    "key":"punchtab",
-                    "date":"Mars 2011 à maintenant",
-                    "title":"<strong>Ingénieur informatique</strong>",
-                    "place":"PunchTab, <em>Palo Alto, CA, USA</em>",
-                    "description": "Rejoins une jeune startup pour construire une platforme de fidélité et .",
+                    "key":"comedia",
+                    "date": {
+                        "start": "2015-04-01"
+                    },
+                    "title":"<strong>Ingénieur Informatique</strong>",
+                    "place":"CoMedia Design, <em>San Francisco, CA, USA</em>",
+                    "description": "Partenaire dans une agence de design et d'ingénerie informatique",
+                    "logo": "http://www.comediadesign.com/images/comedia%20logo.png",
                     "value": [
-                        "Créer des APIs pour gérer les mécanismes de programmes de fidélité (classements, points, récompenses/coupons).",
-                        "Créer une bibliothèque Javascript utilisant des événements pour la communication entre iframes. Installée sur plus de dix milles sites Internet, accédé par 25 millions d'utilisateurs.",
-                        "Capturer et stocker les actions utilisateur venant de plateformes tierces comme Facebook, Twitter, Instagram et Shopify.",
-                        "CMS pour créer des campagnes promotionelles en ligne.",
-                        "Construire des outils internes: frontend framework pour développeurs et designers, robot pour Campfire facilitant les deploiements en production.",
-                        "Construire des sites Internet statiques pour des clients en utilisant la technologie PunchTab, de l'hébergement au question de support et bugs."
+                        "Travaille en tant que contractuel pour Hightail, VMWare et CA Tech pour construire preuves de concept et web applications tels que tableau de bord analytique et outils de recherche.",
+                        "Application iOS créée avec React native pour partager sa position entre collègues. Utilisant une API construite avec Django et microservices utilisant node.js",
+                        "Instrument physique pour choisir une palette de couleur construit avec Tornado et une Raspberry Pi"
                     ]
                 },
                 {
+                    "key":"punchtab",
+                    "date": {
+                        "start": "2011-03-01",
+                        "end": "2015-03-31"
+                    },
+                    "title":"<strong>Software Engineer</strong>",
+                    "place":"PunchTab, <em>Palo Alto, CA, USA</em>",
+                    "description": "Joined early-stage startup to build an omni-channel loyalty and engagement platform.",
+                    "logo": "http://www.punchtab.com/img/logo-red-ribbon.png",
+                    "value": [
+                        "Architecturer les APIs pour gérer les méchanismes de programmes de fidélité (classements, points, récompenses)",
+                        "Créer une librairie Javascript pour communiquer entre iframes et capturer les méchanismes de gain pour être installer sur plus de 10 000 sites Internet en étant visite par 25 millions d'utilisateurs.",
+                        "Construire un système pour capturer, stocker et manipuler les données utilisateur venant de Facebook, Twitter, Instagram et Shopify",
+                        "CMS pour créer des campagnes promotionnelles d'un point de vue de l'interface utilisateur et du règles pour le programme de fidélité",
+                        "Outils internes: front-end framework, bot pour déployer le code en production",
+                    ]
+                }
+                {
                     "key": "dawan",
-                    "date": "Juin à août 2010",
+                    "date": {
+                        "start": "2010-06-01",
+                        "end": "2010-08-31"
+                    },
                     "title": "<strong>Développeur stagiaire</strong>",
                     "place": "Dawan, <em>Nantes, France</em>",
                     "description": "Rejoins une équipe d'ingénieurs pour une SSII pour implémenter un site e-commerce et de comparaisons de prix.",
-                    "value": [
-                        "Intégrer l'internationalization du code Java existant.",
-                        "Construire l'interface utilisateur pour gérer les commandes."
-                    ]
                 },
                 {
                     "key": "sermat",
-                    "date": "Avril à juillet 2008",
+                    "date": {
+                        "start": "2008-04-01",
+                        "end": "2008-07-31"
+                    },
                     "title": "<strong>Développeur stagiaire</strong>",
                     "place": "Sermat, <em>Montaigu, France</em>",
                     "description": "Travaille dans un département informatique d'une entreprise de fabrication de fenêtres pour développer des applications utilisant plusieurs bases de données.",
-                    "value": [
-                        "Définir les spécifications à partir de discussions et retours des employés sur les applications existantes ou désirées.",
-                        "Construire des logiciels utilisant SQL Server et Microsoft Access pour l'interface utilisateur."
-                    ]
                 }
             ]
         },
@@ -77,11 +98,11 @@
             "title":"Compétences",
             "key":"computer",
             "skill": [
-                {"key":"programming","title":"Langages","value":"Python, Javascript et familier avec PHP, Java, C#, C, C++"},
+                {"key":"programming","title":"Langages","value":"Python, Javascript et familier avec Go, Java, C#, C, C++"},
                 {"key":"backend","title":"Frameworks backend","value":"Django, Flask, Express"},
-                {"key":"frontend","title":"Frameworks frontend","value":"React, d3, jQuery, Foundation"},
-                {"key":"database","title":"Bases de données","value":"MySQL, Postgres, MongoDB, Redis"},
-                {"key":"tools","title":"Outils","value":"vim, git, bash, Unix, Vagrant"}
+                {"key":"frontend","title":"Frameworks frontend","value":"React, Redux, d3, jQuery, angular"},
+                {"key":"database","title":"Bases de données","value":"Postgres, MySQL, Redis, MongoDB"},
+                {"key":"tools","title":"Outils","value":"vim, git, bash, Unix, Docker"}
             ]
          },
          {
@@ -94,19 +115,17 @@
                     "place": "<a href=\"https://github.com/boertel/travelbook\" target=\"_target\">github.com/boertel/travelbook</a>",
                     "description": "Traduire un voyage avec des composants spatiale (carte géographique) et temporelle (journées) .",
                     "value": [
-                        "Recherche pour l'UI/UX pour communiquer le voyage à travers le site.",
+                        "Recherche pour l'UI/UX pour communiquer le voyage à travers le site en utilisant les données GPS stockées dans les fichiers photo.",
                         "Fondé seulement sur des technologies frontend (React et Mapbox) et sur GitHub pour les données et images.",
-                        "Extraire les données GPS d'une image et manipuler les images pour génerer les données."
                     ]
                  },
                  {
                     "key": "worldcup",
-                    "title": "<strong>World Cup 2014</strong>",
-                    "place": "<a href=\"https://boertel-worldcup.herokuapp.com\" target=\"_target\">boertel-worldcup.herokuapp.com</a>",
-                    "description": "Site de pari pour la coupe de monde de football 2014 puis adpater au championnat anglais.",
+                    "title": "<strong>Euro Foot 2016</strong>",
+                    "place": "<a href=\"https://eurofoot2016.herokuapp.com/\" target=\"_target\">eurofoot2016.herokuapp.com</a>",
+                    "description": "Site de pari pour la coupe de monde de football 2014 puis adpater pour l'Euro 2016.",
                     "value": [
-                        "authentication avec Facebook et gérer les scores et classements avec Facebook Score API.",
-                        "Construit avec Node.js/Express pour le backend, et angular et purecss.io pour le frontend"
+                        "Authentication et Score API utilisant Facebook pour gérer le classement entre amis, construit avec Node.js/Express et Angular",
                     ]
                  }
              ]
@@ -117,19 +136,19 @@
             "experience": [
                 {
                     "key":"erasmus",
-                    "date": "Automne 2010",
+                    "strdate": "Automne 2010",
                     "title":"<strong>Un semestre en Suède dans le cadre d'Erasmus</strong>",
                     "place":"<em>Linnæus University, Växjö, Sweden</em>"
                 },
                 {
                     "key":"polytech",
-                    "date":"2008 - 2011",
+                    "strdate":"2008 - 2011",
                     "title":"<strong>Diplôme d'ingénieur informatique</strong>",
                     "place":"<em>Polytech' Nantes, France</em>"
                 },
                 {
                     "key":"iut",
-                    "date":"2006 - 2008",
+                    "strdate":"2006 - 2008",
                     "title":"<strong>DUT en informatique</strong>",
                     "place":"<em>IUT de Nantes, France</em>"
                 }
@@ -147,4 +166,3 @@
         }
     ]
 }
-
