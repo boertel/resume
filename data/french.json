@@ -69,9 +69,9 @@
                         "Créer une librairie Javascript pour communiquer entre iframes et capturer les méchanismes de gain pour être installer sur plus de 10 000 sites Internet en étant visite par 25 millions d'utilisateurs.",
                         "Construire un système pour capturer, stocker et manipuler les données utilisateur venant de Facebook, Twitter, Instagram et Shopify",
                         "CMS pour créer des campagnes promotionnelles d'un point de vue de l'interface utilisateur et du règles pour le programme de fidélité",
-                        "Outils internes: front-end framework, bot pour déployer le code en production",
+                        "Outils internes: front-end framework, bot pour déployer le code en production"
                     ]
-                }
+                },
                 {
                     "key": "dawan",
                     "date": {
@@ -80,7 +80,7 @@
                     },
                     "title": "<strong>Développeur stagiaire</strong>",
                     "place": "Dawan, <em>Nantes, France</em>",
-                    "description": "Rejoins une équipe d'ingénieurs pour une SSII pour implémenter un site e-commerce et de comparaisons de prix.",
+                    "description": "Rejoins une équipe d'ingénieurs pour une SSII pour implémenter un site e-commerce et de comparaisons de prix."
                 },
                 {
                     "key": "sermat",
@@ -90,7 +90,7 @@
                     },
                     "title": "<strong>Développeur stagiaire</strong>",
                     "place": "Sermat, <em>Montaigu, France</em>",
-                    "description": "Travaille dans un département informatique d'une entreprise de fabrication de fenêtres pour développer des applications utilisant plusieurs bases de données.",
+                    "description": "Travaille dans un département informatique d'une entreprise de fabrication de fenêtres pour développer des applications utilisant plusieurs bases de données."
                 }
             ]
         },
@@ -116,7 +116,7 @@
                     "description": "Traduire un voyage avec des composants spatiale (carte géographique) et temporelle (journées) .",
                     "value": [
                         "Recherche pour l'UI/UX pour communiquer le voyage à travers le site en utilisant les données GPS stockées dans les fichiers photo.",
-                        "Fondé seulement sur des technologies frontend (React et Mapbox) et sur GitHub pour les données et images.",
+                        "Fondé seulement sur des technologies frontend (React et Mapbox) et sur GitHub pour les données et images."
                     ]
                  },
                  {
@@ -125,7 +125,7 @@
                     "place": "<a href=\"https://eurofoot2016.herokuapp.com/\" target=\"_target\">eurofoot2016.herokuapp.com</a>",
                     "description": "Site de pari pour la coupe de monde de football 2014 puis adpater pour l'Euro 2016.",
                     "value": [
-                        "Authentication et Score API utilisant Facebook pour gérer le classement entre amis, construit avec Node.js/Express et Angular",
+                        "Authentication et Score API utilisant Facebook pour gérer le classement entre amis, construit avec Node.js/Express et Angular"
                     ]
                  }
              ]
