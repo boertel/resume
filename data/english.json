@@ -67,7 +67,7 @@
                     "value": [
                         "Designed APIs to manage loyalty program mechanisms (leaderboard, points, rewards)",
                         "Created a third-party Javascript library for cross domain iframe communications that have been installed on over 10K websites with a reach of 25M users",
-                        "Developed an efficient system to store third party user data (Facebook, Twitter, Instagram, Shopify)",
+                        "Developed an efficient system to capture, store and manipulate third party user data (Facebook, Twitter, Instagram, Shopify)",
                         "Engineered a Content Management System to create promotional campaigns handling configuration and design customizations",
                         "Built internal developer tools: custom front-end framework, deployment bot"
                     ]
