@@ -113,7 +113,7 @@
                  {
                     "key": "ranger",
                     "title": "<strong>Ranger Oertel</strong>",
-                    "place": "<a href=\"http://ranger.oertel.fr\" target=\"_target\">ranger.oertel.fr</a>",
+                    "place": "<a href=\"https://ranger-oertel.now.sh\" target=\"_target\">ranger-oertel.now.sh</a>",
                     "description": "Find who took a photography during a trip in Hawaii",
                     "value": [
                         "front-end website using react, react-router and redux"
