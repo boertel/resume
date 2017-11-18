@@ -113,7 +113,7 @@
                  {
                     "key": "ranger",
                     "title": "<strong>Ranger Oertel</strong>",
-                    "place": "<a href=\"https://ranger-oertel.now.sh\" target=\"_target\">ranger-oertel.now.sh</a>",
+                    "place": "<a href=\"http://ranger.oertel.fr\" target=\"_target\">ranger.oertel.fr</a>",
                     "description": "Find who took a photography during a trip in Hawaii",
                     "value": [
                         "front-end website using react, react-router and redux"
@@ -122,7 +122,7 @@
                  {
                     "key": "travelbook",
                     "title": "<strong>Travelbook</strong>",
-                    "place": "<a href=\"http://travelbook.oertel.fr\" target=\"_target\">travelbook.oertel.fr</a>",
+                    "place": "<a href=\"https://ranger-oertel.now.sh\" target=\"_target\">ranger-oertel.now.sh</a>",
                     "description": "Translate a journey with spatial (map) and temporal (days) components in a website.",
                     "value": [
                         "UI/UX research to communicate the journey through a website by relying on GPS data stored in the photo files",
