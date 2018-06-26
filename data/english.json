@@ -132,10 +132,10 @@
                  {
                     "key": "worldcup",
                     "title": "<strong>Football betting website</strong>",
-                    "place": "<a href=\"https://eurofoot2016.herokuapp.com/\" target=\"_target\">eurofoot2016.herokuapp.com</a>",
-                    "description": "Friendly betting website for FIFA worldcup 2014 and UEFA Euro 2016.",
+                    "place": "<a href=\"https://football-worldcup-2018.herokuapp.com/\" target=\"_target\">football-worldcup-2018.herokuapp.com</a>",
+                    "description": "Friendly betting website for FIFA worldcup 2014, 2018 and UEFA Euro 2012, 2016.",
                     "value": [
-                        "Facebook Authentication and Score API to handle friends leaderboard using Node.js/Express and Angular"
+                        "React application with a Django backend"
                     ]
                  }
              ]
