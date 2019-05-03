@@ -122,7 +122,7 @@
                  {
                     "key": "travelbook",
                     "title": "<strong>Travelbook</strong>",
-                    "place": "<a href=\"https://ranger-oertel.now.sh\" target=\"_target\">ranger-oertel.now.sh</a>",
+                    "place": "<a href=\"https://book.boertel.now.sh\" target=\"_target\">book.boertel.now.sh</a>",
                     "description": "Translate a journey with spatial (map) and temporal (days) components in a website.",
                     "value": [
                         "UI/UX research to communicate the journey through a website by relying on GPS data stored in the photo files",
