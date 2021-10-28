@@ -110,7 +110,6 @@ main,
 }
 main {
   background-color: #fff;
-  min-height: 100%;
 }
 article {
   margin-bottom: 2em;
@@ -168,12 +167,6 @@ header {
   margin-bottom: 6px;
 }
 
-.icon {
-  line-height: 45px;
-  padding-left: 5px;
-  margin-right: 10px;
-  font-size: 20px;
-}
 .icon:hover {
   text-decoration: none;
 }
