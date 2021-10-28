@@ -1,4 +1,4 @@
-<html>
+<html moznomarginboxes mozdisallowselectionprint>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,15 +11,16 @@
 
 <body>
 
-<div id="wrapper">
-    <div id="header" class="clearfix"></div>
+<main>
+    <header id="header" class="clearfix"></header>
 
-    <div id="personal" class="section"></div>
+    <section id="personal"></section>
 
     <div id="category"></div>
-</div>
+</main>
+<div class="print-line"></div>
 
-<div class="credits hide-on-print">Last updated: May 2017</div>
+<div class="credits hide-on-print">Last updated: October 2021</div>
 
 <!-- TEMPLATES -->
 <script id="template-title" data-anchor="header" type="text/html">
@@ -35,11 +36,6 @@
     <div class="contact">
         {{#personal}}
         <ul>
-            {{#location}}
-            <li{{#key}} id="{{key}}"{{/key}}>{{{value}}}</li>
-            {{/location}}
-        </ul>
-        <ul>
             {{#contact}}
             <li{{#key}} id="{{key}}"{{/key}}>{{{value}}}</li>
             {{/contact}}
@@ -49,8 +45,8 @@
     <div class="social">
         {{#social}}
             <div>
-                <a href="http://{{ href }}" target="_blank" class="hide-on-print icon icon-{{ key }}"></a>
-                <a href="http://{{ href }}" target="_blank" class="show-on-print">{{ href }}</a>
+                <a href="https://{{ href }}" target="_blank" class="hide-on-print icon icon-{{ key }}"></a>
+                <a href="https://{{ href }}" target="_blank" class="show-on-print">{{ href }}</a>
             </div>
         {{/social}}
     </div>
@@ -58,12 +54,12 @@
 
 <script id="template-category" data-anchor="category" type="text/html">
     {{#category}}
-    <div class="category {{ key }}">
+    <article class="category {{ key }}">
         <h2>{{ title }}</h2>
-        <div class="section">
+        <section>
             <ul>
             {{#experience}}
-                <li class="experience" {{#key}}id="{{key}}"{{/key}}>
+                <li class="experience{{^value.length}} small{{/value.length}}" {{#key}}id="{{key}}"{{/key}}>
                     <div class="header">
                         <div class="title">{{{title}}},&nbsp;{{{place}}}</div>
                         {{#date}}
@@ -79,7 +75,7 @@
                     {{#value.length}}
                     <ul class="value">
                     {{#value}}
-                        <li>{{{.}}}</li>
+                        <li>{{#label}}<em>{{ label }} ({{ duration }})</em>: {{/label}}{{description}}</li>
                     {{/value}}
                     </ul>
                     {{/value.length}}
@@ -95,30 +91,15 @@
                 </li>
             {{/skill}}
             </ul>
-        </div>
-    </div>
+        </section>
+    </article>
     {{/category}}
 </script>
 <!-- TEMPLATES -->
 
-<script type="text/javascript" src="./js/jquery-2.2.0.min.js"></script>
 <script type="text/javascript" src="./js/hogan.js"></script>
-<script type="text/javascript" src="./js/moment.min.js"></script>
 <script type="text/javascript" src="./js/barbe.js"></script>
 <script type="text/javascript" src="./js/cv.js"></script>
-
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-19599433-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script>
-
 
 </body>
 </html>

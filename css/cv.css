@@ -1,234 +1,252 @@
 body {
-    background: #EBEBEB;
-    color: #333;
-    margin: 0;
-    font-family: Georgia, Serif;
+  background: #ebebeb;
+  color: #333;
+  margin: 0;
+  font-family: Georgia, Serif;
 }
-body, table, a {
-	color: #000000;
-	font-family: Georgia, serif;
-    font-size: 14px;
-	text-decoration: none;
+body,
+table,
+a {
+  color: #000000;
+  font-family: Georgia, serif;
+  font-size: 14px;
+  text-decoration: none;
 }
-p, li {
-    line-height: 1.2em;
+p,
+li {
+  line-height: 1.2em;
 }
 a {
-    color: #2a4fa2;
+  color: #2a4fa2;
 }
 a:hover {
-    color: #203476;
-    text-decoration: underline;
-    cursor: pointer;
+  color: #203476;
+  text-decoration: underline;
+  cursor: pointer;
 }
 span {
-    color: #666;
+  color: #666;
 }
 small {
-    font-size: 0.8em;
+  font-size: 0.8em;
 }
-h1, h2, h3 {
-	font-family: "Book Antiqua", Georgia;
+h1,
+h2,
+h3 {
+  font-family: "Book Antiqua", Georgia;
 }
 h1 {
-	color: #2a4fa2;
-	font-size: 32px;
-	margin: 0px;
+  color: #2a4fa2;
+  font-size: 32px;
+  margin: 0px;
 }
 h3 > small {
-    font-size: 13px;
-    font-variant: normal;
-    font-weight: normal;
+  font-size: 13px;
+  font-variant: normal;
+  font-weight: normal;
 }
 h2 {
-	border-bottom: 1px solid #accbfb;
-	color: #2a4fa2;
-	font-size: 21px;
-	font-weight: bold;
-    padding-bottom: 4px;
-    margin-bottom: 0.5em;
+  border-bottom: 1px solid #accbfb;
+  color: #2a4fa2;
+  font-size: 21px;
+  font-weight: bold;
+  padding-bottom: 4px;
+  margin-bottom: 0.5em;
 }
 h3 {
-    font-size: 24px;
-    color: #333;
-    padding: 4px;
+  font-size: 24px;
+  color: #333;
+  padding: 4px;
 }
 
+ul {
+  page-break-inside: avoid;
+}
 
 span.amp {
-   font-family: Baskerville,"Goudy Old Style","Palatino","Book Antiqua",serif;
-   font-size: 110%;
-   font-style: italic;
+  font-family: Baskerville, "Goudy Old Style", "Palatino", "Book Antiqua", serif;
+  font-size: 110%;
+  font-style: italic;
 }
-.clearfix:after, .section:after {
-	visibility: hidden;
-	display: block;
-	font-size: 0;
-	content: " ";
-	clear: both;
-	height: 0;
+
+.clearfix:after,
+section:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
 }
 .separator {
-    margin: 0 5px;
+  margin: 0 5px;
 }
 .hidden,
 .hidden a {
-    display: inline;
-    font-style: normal;
-    font-family: 'Lucida Grande', sans-serif;
-    font-size: 11px;
+  display: inline;
+  font-style: normal;
+  font-family: "Lucida Grande", sans-serif;
+  font-size: 11px;
 }
 .show-on-print {
-    display: none;
+  display: none;
+}
+
+.print-line {
+  position: absolute;
+  top: 1280px;
+  width: 100%;
+  height: 1px;
+  background-color: red;
+  display: none;
 }
 
 /* LAYOUT */
-#wrapper, .credits {
-    width: 820px;
-    padding: 20px;
-    margin: 20px auto;
+main,
+.credits {
+  width: 820px;
+  padding: 20px;
+  margin: 20px auto;
 }
-#wrapper {
-    background-color: #fff;
-    min-height: 100%;
+main {
+  background-color: #fff;
+  min-height: 100%;
 }
-.category {
-    margin-bottom: 2em;
+article {
+  margin-bottom: 2em;
 }
-.category:last-child {
-    margin-bottom: 0;
+article:last-child {
+  margin-bottom: 0;
 }
 
 .fluo {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 .language .title:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .credits {
-    padding: 0;
-    color: #616161;
-    text-align: center;
+  padding: 0;
+  color: #616161;
+  text-align: center;
 }
-
-
-
 
 /* HEADER */
-#header {
-    margin-bottom: 2em;
+header {
+  margin-bottom: 2em;
 }
 .job {
-    cursor: help;
-    font-variant: small-caps;
-    float: right;
-    line-height: 32px;
+  cursor: help;
+  font-variant: small-caps;
+  float: right;
+  line-height: 32px;
 }
 .name {
-    float: left;
+  float: left;
 }
 
 /* CONTACT */
 #personal {
-    margin-bottom: 2em;
+  margin-bottom: 2em;
 }
 .contact {
-    float: left;
-    margin-top: 1em;
+  float: left;
 }
 .contact ul {
-    margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 .contact li {
-    margin-bottom: 0.3em;
-    line-height: 1.3em;
+  margin-bottom: 0.3em;
+  line-height: 1.3em;
 }
 .social {
-    float: right;
-    text-align: right;
+  float: right;
+  text-align: right;
 }
 .social > div {
-    margin-bottom: 6px;
+  margin-bottom: 6px;
 }
 
 .icon {
-    line-height: 45px;
-    padding-left: 5px;
-    margin-right: 10px;
-    font-size: 20px;
+  line-height: 45px;
+  padding-left: 5px;
+  margin-right: 10px;
+  font-size: 20px;
 }
 .icon:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
-
 
 /* EXPERIENCE */
 .experience {
-    margin-bottom: 1.4em;
+  margin-bottom: 1.4em;
+}
+.experience.small {
+  margin-bottom: 0.8em;
 }
 .experience .header {
-    overflow: hidden;
-    margin-bottom: 0.4em;
+  overflow: hidden;
+  margin-bottom: 0.4em;
 }
 .experience .title {
-    float: left;
-    font-size: 1.1em;
+  float: left;
+  font-size: 1.1em;
+  line-height: 1.2em;
 }
 .experience .date {
-    color: #666;
-    text-align: right;
-    float: right;
-    margin-left: 1.5em;
+  color: #666;
+  text-align: right;
+  float: right;
+  margin-left: 1.5em;
 }
 
 .experience .logo {
-    float: right;
-    width: 90px;
-    height: 1em;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center right;
+  float: right;
+  width: 90px;
+  height: 1em;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center right;
 }
 .experience .description,
 .experience .value {
-    text-align: justify;
+  text-align: justify;
 }
 .experience .description {
-    margin-bottom: 0.3em;
+  margin-bottom: 0.3em;
 }
 .experience .value {
-    list-style: disc;
+  list-style: disc;
 }
 ul.value li {
-    margin-left: 2.0em;
-    margin-bottom: 0.3em;
-    line-height: 1.3em;
+  margin-left: 2em;
+  margin-bottom: 0.3em;
+  line-height: 1.3em;
 }
-
 
 /* SKILL */
 li.skill {
-    margin-bottom: 0.3em;
+  margin-bottom: 0.3em;
 }
 li.skill div {
-    float: left;
+  float: left;
 }
 
 /* CUSTOM */
 .education .experience {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .education .date {
-    width: 100px;
+  width: 100px;
 }
 .computer .title {
-    width: 180px;
+  width: 180px;
 }
 .language .title {
-    width: 80px;
+  width: 80px;
 }
 .interest .title {
-    width: 80px;
+  width: 80px;
 }
