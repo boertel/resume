@@ -133,7 +133,7 @@ article:last-child {
 
 /* HEADER */
 header {
-  margin-bottom: 2em;
+  margin-bottom: 1.8em;
 }
 .job {
   cursor: help;
@@ -147,7 +147,7 @@ header {
 
 /* CONTACT */
 #personal {
-  margin-bottom: 2em;
+  margin-bottom: 1.6em;
 }
 .contact {
   float: left;
