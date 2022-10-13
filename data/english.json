@@ -54,8 +54,9 @@
             { "key": "cre", "label": "CRE Simple",  "description": "Put in charge of the React application to manage document workflows for commercial real estate transactions.", "highlight": false },
             { "key": "nextravel", "label": "Nextravel",  "description": "Built the frontend for the flight search with Typescript." },
             { "key": "risingteam", "label": "Rising Team",  "description": "Created a React web application to include a flexible workflow mechanism to have ICs and managers take surveys, and aggregate results for the managers backed by a Django backend. It also featured a 1:1 tool and a complex e-mail notification tool.", "highlight": true },
-            { "key": "winnebago", "label": "Winnebago",  "description": "Created a proof-of-concept iOS app for Electric van built with React Native. The app displays data streamed from the vehicle and integrate with Azure services to retrieve map, direction and charging station locations." },
-            { "key": "headroom", "label": "Headroom",  "description": "Put in charge of the frontend React application to work along their team to add Low Bandwidth HD and Virtual Backgrounds and improved stability and UI quality.", "highlight": true}
+            { "key": "winnebago", "label": "Winnebago",  "description": "Created a proof-of-concept mobile app for electric vehicles built with React Native. The app displays data streamed from the vehicle through Bluetooth and cellular network. It integrates with Azure services to retrieve map, direction and charging station locations." },
+            { "key": "headroom", "label": "Headroom",  "description": "Put in charge of the frontend React application to work alongside their team to add Low Bandwidth HD and Virtual Backgrounds and improved stability and UI quality.", "highlight": true},
+            { "key": "myria", "label": "Myria",  "description": "Help build onboarding process during YC period.", "highlight": true}
           ],
           "highlight": true
         },
