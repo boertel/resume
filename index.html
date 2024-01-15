@@ -18,7 +18,7 @@
 </main>
 <div class="print-line"></div>
 
-<div class="credits hide-on-print">Last updated: October 2021</div>
+<div class="credits hide-on-print">Last updated: January 2024</div>
 
 <!-- TEMPLATES -->
 <script id="template-title" data-anchor="header" type="text/html">
@@ -73,7 +73,7 @@
                     {{#value.length}}
                     <ul class="value">
                     {{#value}}
-                        <li>{{#label}}<em>{{ label }}</em>: {{/label}}{{description}}</li>
+                        <li class="{{#hidden}}subtle{{/hidden}}">{{#href}}<a href="{{href}}" target="_blank">{{/href}}{{#label}}<em>{{ label }}</em>: {{/label}}{{#href}}</a>{{/href}}{{description}}</li>
                     {{/value}}
                     </ul>
                     {{/value.length}}
@@ -85,7 +85,9 @@
                     <div class="title"><em>{{title}}</em></div>
                     <div class="separator">:</div>
                     {{/title}}
-                    <div class="value">{{{value}}}</div>
+                    <div class="value">
+                    {{{value}}}
+                    </div>
                 </li>
             {{/skill}}
             </ul>

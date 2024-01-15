@@ -1,92 +1,231 @@
 {
-    "job":"Ingénieur Informatique",
-    "image":"https://s.gravatar.com/avatar/a011b6b54ec2c1852f927b7d0f26318b?s=160",
-    "name":"Benjamin Oertel",
-    "personal": {
-        "contact": [
-            {"key":"live", "value": "San Francisco, CA, USA"},
-            {"key":"","value":"+1 (650) 739-6361"},
-            {"key":"email","value":"<a href=\"mailto:benjamin.oertel@gmail.com?subject=Hi\">benjamin.oertel@gmail.com</a>"}
-        ]
-    },
-    "social": [
-        {
-            "key": "website",
-            "href": "ben.oertel.fr",
-            "value": "Site Internet"
-        },
-        {
-            "key": "github",
-            "href": "https://github.com/boertel",
-            "value": "GitHub"
-        },
-        {
-            "key": "linkedin",
-            "href": "https://linkedin.com/in/boertel",
-            "value": "Linked In"
-
-        }
-    ],
-    "category": [
-        {
-            "title":"Expériences professionelles",
-            "key":"professional",
-            "experience": [
-            ]
-        },
-        {
-            "title":"Compétences",
-            "key":"computer",
-            "skill": [
-                {"key":"programming","title":"Langages","value":"Python, Javascript et familier avec Go"},
-                {"key":"backend","title":"Frameworks backend","value":"Django, Flask, Express, Next.js"},
-                {"key":"frontend","title":"Technologies frontend","value":"React, Redux, d3"},
-                {"key":"database","title":"Bases de données","value":"PostgreSQL, MySQL, Redis, MongoDB"},
-                {"key":"tools","title":"Outils","value":"vim, git, shell, Unix, Docker, terraform"}
-            ]
-         },
-         {
-             "title": "Projets",
-             "key": "side_projects",
-             "experience": [
-             ]
-         },
-         {
-            "title": "Éducation",
-            "key":"education",
-            "experience": [
-                {
-                    "key":"erasmus",
-                    "strdate": "Automne 2010",
-                    "title":"<strong>Un semestre en Suède dans le cadre d'Erasmus</strong>",
-                    "place":"<em>Linnæus University, Växjö, Sweden</em>",
-                    "highlight": true
-                },
-                {
-                    "key":"polytech",
-                    "strdate":"2008 - 2011",
-                    "title":"<strong>Diplôme d'ingénieur informatique</strong>",
-                    "place":"<em>Polytech' Nantes, France</em>",
-                    "highlight": true
-                },
-                {
-                    "key":"iut",
-                    "strdate":"2006 - 2008",
-                    "title":"<strong>DUT en informatique</strong>",
-                    "place":"<em>IUT de Nantes, France</em>",
-                    "highlight": true
-                }
-            ]
-        },
-        {
-            "title":"Langues",
-            "key":"language",
-            "skill": [
-
-                {"key":"french","title":"Français","value":"langue maternelle<span class=\"hidden\"> - <a href=\"#french\">Aller à la version francaise</a></span>"},
-                {"key":"english","title":"Anglais", "value":"courant<span class=\"hidden\"> - <a href=\"#english\">Switch to the English version</a></span>"},
-                {"key":"","title":"Allemand","value":"connaissances (étudié pendant 9 ans)"}
-            ]
-        }
+  "job": "Ingénieur Informatique",
+  "image": "https://s.gravatar.com/avatar/a011b6b54ec2c1852f927b7d0f26318b?s=160",
+  "name": "Benjamin Oertel",
+  "personal": {
+    "contact": [
+      { "key": "live", "value": "San Francisco, CA, USA" },
+      { "key": "", "value": "+1 (650) 739-6361" },
+      {
+        "key": "email",
+        "value": "<a href=\"mailto:benjamin.oertel@gmail.com?subject=Hi\">benjamin.oertel@gmail.com</a>"
+      }
     ]
+  },
+  "social": [
+    {
+      "key": "website",
+      "href": "ben.oertel.fr",
+      "value": "Website"
+    },
+    {
+      "key": "github",
+      "href": "github.com/boertel",
+      "value": "GitHub"
+    },
+    {
+      "key": "linkedin",
+      "href": "linkedin.com/in/boertel",
+      "value": "Linked In"
+    }
+  ],
+  "category": [
+    {
+      "title": "Expériences professionelles",
+      "key": "professional",
+      "experience": [
+        {
+          "key": "comedia",
+          "date": {
+            "start": "2015-04-01"
+          },
+          "title": "<strong>Lead Software Engineer</strong>",
+          "place": "CoMedia Design, <em>San Francisco, CA, USA</em>",
+          "description": "Partner in a design and development agency working for companies going from startups to Fortune 500 companies. Projects range from proof-of-concepts to production applications.",
+          "logo": "http://www.comediadesign.com/images/comedia%20logo.png",
+          "value": [
+            { "key": "hightail", "label": "Hightail",  "description": "Built an Angular analytics dashboard for Hightail Space with charts to show health and activity of a workspace." },
+            { "key": "witwik", "label": "witwik",  "description": "Created an React Native mobile app to share locations with co-workers backed with Django backend and Express.js microservices for photo uploads and push notifications." },
+            { "key": "color-picker", "label": "Color Picker", "description": "Physical color picker built with Tornado for realtime and hosted on a Raspberry Pi." },
+            { "key": "vmware", "label": "VMware",  "description": "Integrated to Workspace One team to work on the Angular frontend on the application grid view and make it mobile friendly." },
+            { "key": "catech", "label": "CA Tech",  "description": "Built a React metric palette relying on Material UI to aggregate data from different CA Tech projects under one umbrella. The project was also designed as a library so the different projects would be able to integrate metrics into their own dashboard.", "highlight": false },
+            { "key": "gvg", "label": "GuestViewGuide by NEC",  "description": "Prototyped an interactive frame for vacation rentals guests with a Raspberry Pi and a touch screen. And in charge of developing the production React web application and Express.js/React dashboard for property managers to customize the guest experience.", "highlight": true},
+            { "key": "minerva", "label": "Minerva Project",  "description": "Created a standalone project to build a collaborative question/answers iframe-able application for students. Collaboration relied on ShareDB, React and Quill.js. I worked closely with their team to make sure the project will be extendable (they added jupyter integration later on) and maintenable (we agreed on database and API structure).", "highlight": true },
+            { "key": "cre", "label": "CRE Simple",  "description": "Put in charge of the React application to manage document workflows for commercial real estate transactions.", "highlight": false },
+            { "key": "nextravel", "label": "Nextravel",  "description": "Built the frontend for the flight search with Typescript." },
+            { "key": "risingteam", "label": "Rising Team",  "description": "Created a React web application to include a flexible workflow mechanism to have ICs and managers take surveys, and aggregate results for the managers backed by a Django backend. It also featured a 1:1 tool and a complex e-mail notification tool.", "highlight": true },
+            { "key": "winnebago", "label": "Winnebago",  "description": "Created a proof-of-concept iOS app for Electric van built with React Native. The app displays data streamed from the vehicle and integrate with Azure services to retrieve map, direction and charging station locations." },
+            { "key": "headroom", "label": "Headroom",  "description": "Put in charge of the frontend React application to work along their team to add Low Bandwidth HD and Virtual Backgrounds and improved stability and UI quality.", "highlight": true}
+          ],
+          "highlight": true
+        },
+        {
+          "key": "punchtab",
+          "date": {
+            "start": "2011-03-01",
+            "end": "2015-03-31"
+          },
+          "title": "<strong>Software Engineer</strong>",
+          "place": "PunchTab, <em>Palo Alto, CA, USA</em>",
+          "description": "Joined early-stage startup to build an omni-channel loyalty and engagement platform.",
+          "logo": "http://www.punchtab.com/img/logo-red-ribbon.png",
+          "value": [
+            { "description": "Designed APIs to manage loyalty program mechanisms (leaderboard, points, rewards)", "highlight": true},
+            { "description": "Created a third-party Javascript library for cross domain iframe communications that have been installed on over 10K websites with a reach of 25M users", "highlight": true},
+            { "description": "Developed an efficient system to capture, store and manipulate third party user data (Facebook, Twitter, Instagram, Shopify)", "highlight": true},
+            { "description": "Engineered a Content Management System to create promotional campaigns handling configuration and design customizations", "highlight": false},
+            { "description": "Built internal developer tools: custom front-end framework, deployment bot", "highlight": true}
+          ],
+          "highlight": true
+        },
+        {
+          "key": "dawan",
+          "date": {
+            "start": "2010-06-01",
+            "end": "2010-08-31"
+          },
+          "title": "<strong>Developer Intern</strong>",
+          "place": "Dawan, <em>Nantes, France</em>",
+          "description": "Joined a small engineering team in a IT company to implement an comparison shopping/e-commerce website for a client.",
+          "highlight": false
+        },
+        {
+          "key": "sermat",
+          "date": {
+            "start": "2008-04-01",
+            "end": "2008-07-31"
+          },
+          "title": "<strong>Developer Intern</strong>",
+          "place": "Sermat, <em>Montaigu, France</em>",
+          "description": "Worked in an IT department of a none IT company to develop applications relying heavily on multiple databases.",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "title": "Compétences",
+      "key": "computer",
+      "skill": [
+        {
+          "key": "programming",
+          "title": "Langages",
+          "value": "Python, Javascript/Typescript et familier avec Go, Java, C#, C, C++"
+        },
+        {
+          "key": "backend",
+          "title": "Frameworks Backend",
+          "value": "Django, Flask, Next.js, Express"
+        },
+        {
+          "key": "frontend",
+          "title": "Téchnologies Frontend",
+          "value": "React, Redux, d3, tailwind.css, JavaScript/HTML/CSS"
+        },
+        { "key": "mobile", "title": "Mobile", "value": "React Native, Expo" },
+        {
+          "key": "database",
+          "title": "Bases de données",
+          "value": "PostgreSQL, MySQL, MongoDB, Redis"
+        },
+        {
+          "key": "cloud",
+          "title": "Clouds",
+          "value": "AWS, Google Cloud, Azure"
+        },
+        {
+          "key": "tools",
+          "title": "Outils",
+          "value": "vim, git, shell, Unix system, Docker, Terraform"
+        }
+      ]
+    },
+    {
+      "title": "Projets",
+      "key": "side_projects",
+      "experience": [
+        {
+          "key": "keep-it-pertinent",
+          "title": "<strong>Keep it pertinent</strong>",
+          "place": "<a href=\"https://keep-it-pertinent.oertel.fr\" target=\"_target\">keep-it-pertinent.oertel.fr</a>",
+          "description": "Application web Next.js qui aide à trier les comptes suivis sur Twitter.",
+          "highlight": true
+        },
+        {
+          "key": "morning-routine",
+          "title": "<strong>Morning Routine</strong>",
+          "place": "<a href=\"https://morning.oertel.fr/ben\" target=\"_target\">morning.oertel.fr</a>",
+          "description": "Application web Next.js pour accéder une série de vidéos pré-définies",
+          "highlight": true
+        },
+        {
+          "key": "ranger",
+          "title": "<strong>Ranger Oertel</strong>",
+          "place": "<a href=\"http://ranger.oertel.fr\" target=\"_target\">ranger.oertel.fr</a>",
+          "description": "Find who took a photography during a trip in Hawaii."
+        },
+        {
+          "key": "travelbook",
+          "title": "<strong>Travelbook</strong>",
+          "place": "<a href=\"https://https://book.oertel.fr/\" target=\"_target\">book.oertel.fr</a>",
+          "description": "Relate a journey with spatial and temporal components in a React web application with GPS data extracted directly from photos and display with mapbox map.",
+          "highlight": true
+        },
+        {
+          "key": "worldcup",
+          "title": "<strong>Football betting website</strong>",
+          "place": "<a href=\"https://football-worldcup-2018.herokuapp.com/\" target=\"_target\">football-worldcup-2018.herokuapp.com</a>",
+          "description": "Friendly betting website for FIFA worldcup 2014, 2018 and UEFA Euro 2012, 2016 and 2020"
+        }
+      ]
+    },
+    {
+      "title": "Education",
+      "key": "education",
+      "experience": [
+        {
+          "key": "erasmus",
+          "strdate": "Fall 2010",
+          "title": "<strong>One semester in Sweden, Erasmus Program</strong>",
+          "place": "<em>Linnæus University, Växjö, Sweden</em>",
+          "highlight": true
+        },
+        {
+          "key": "polytech",
+          "strdate": "2008 - 2011",
+          "title": "<strong>Master of Engineering in Computer Science</strong>",
+          "place": "<em>Polytechnic School of Nantes University, France</em>",
+          "highlight": true
+        },
+        {
+          "key": "iut",
+          "strdate": "2006 - 2008",
+          "title": "<strong>Two-year degree in Computer Science</strong>",
+          "place": "<em>University Institute of Technology, Nantes, France</em>",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "title": "Languages",
+      "key": "language",
+      "skill": [
+        {
+          "key": "french",
+          "title": "French",
+          "value": "mother tongue<span class=\"hidden hide-on-print\"> - <a href=\"#french\">Aller à la version francaise</a></span>"
+        },
+        {
+          "key": "english",
+          "title": "English",
+          "value": "fluent<span class=\"hidden hide-on-print\"> - <a href=\"#english\">Switch to the English version</a></span>"
+        },
+        {
+          "key": "",
+          "title": "German",
+          "value": "knowledge (studied for 9 years)"
+        }
+      ]
+    }
+  ]
 }
+

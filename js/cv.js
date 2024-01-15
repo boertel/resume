@@ -47,13 +47,41 @@ function load_json() {
     data.category.forEach(function (category) {
       if (category.experience) {
         const highlights = qs.getAll(category.key);
+        const toInclude = {};
+        highlights.forEach(function (highlight) {
+          const [key, value] = highlight.split(".");
+          toInclude[key] = toInclude[key] || [];
+          if (value) {
+            toInclude[key].push(value);
+          }
+        });
+
         category.experience = category.experience.filter(function (experience) {
-          if (highlights.length) {
-            return highlights.includes(experience.key);
-          } else {
+          if (toInclude["*"]) {
+            if (experience.value) {
+              experience.value.forEach(function (v) {
+                v.hidden = true;
+                if (
+                  toInclude["*"].includes(v.key) ||
+                  toInclude["*"].includes("*")
+                ) {
+                  v.highlight = true;
+                }
+              });
+            }
+            return true;
+          } else if (toInclude[experience.key]) {
+            if (experience.value) {
+              experience.value = experience.value.filter(function (v) {
+                return toInclude[experience.key].includes(v.key);
+              });
+            }
+            return true;
+          } else if (!Object.keys(toInclude).length) {
             return experience.highlight;
           }
         });
+
         category.experience.forEach(function (experience) {
           if (experience.date) {
             var date = {};
@@ -86,7 +114,8 @@ function load_json() {
               if (highlights.length) {
                 return highlights.includes(v.key);
               } else {
-                return v.highlight;
+                return true;
+                //return v.highlight;
               }
             });
           }

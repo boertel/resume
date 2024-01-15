@@ -217,6 +217,9 @@ ul.value li {
   margin-bottom: 0.3em;
   line-height: 1.3em;
 }
+ul.value li.subtle {
+  background-color: lightgray;
+}
 
 /* SKILL */
 li.skill {

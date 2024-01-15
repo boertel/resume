@@ -40,23 +40,27 @@
             "start": "2015-04-01"
           },
           "title": "<strong>Lead Software Engineer</strong>",
-          "place": "CoMedia Design, <em>San Francisco, CA, USA</em>",
+          "place": "comedia, <em>San Francisco, CA, USA</em>",
           "description": "Partner in a design and development agency working for companies going from startups to Fortune 500 companies. Projects range from proof-of-concepts to production applications.",
           "logo": "http://www.comediadesign.com/images/comedia%20logo.png",
           "value": [
-            { "key": "hightail", "label": "Hightail",  "description": "Built an Angular analytics dashboard for Hightail Space with charts to show health and activity of a workspace." },
-            { "key": "witwik", "label": "witwik",  "description": "Created an React Native mobile app to share locations with co-workers backed with Django backend and Express.js microservices for photo uploads and push notifications." },
+            { "key": "hightail", "label": "Hightail", "href": "https://www.hightail.com/", "description": "Built an Angular analytics dashboard for Hightail Space with charts to show health and activity of a workspace." },
+            { "key": "witwik", "label": "witwik", "description": "Created an React Native mobile app to share locations with co-workers backed with Django backend and Express.js microservices for photo uploads and push notifications." },
             { "key": "color-picker", "label": "Color Picker", "description": "Physical color picker built with Tornado for realtime and hosted on a Raspberry Pi." },
-            { "key": "vmware", "label": "VMware",  "description": "Integrated to Workspace One team to work on the Angular frontend on the application grid view and make it mobile friendly." },
-            { "key": "catech", "label": "CA Tech",  "description": "Built a React metric palette relying on Material UI to aggregate data from different CA Tech projects under one umbrella. The project was also designed as a library so the different projects would be able to integrate metrics into their own dashboard.", "highlight": false },
-            { "key": "gvg", "label": "GuestViewGuide by NEC",  "description": "Prototyped an interactive frame for vacation rentals guests with a Raspberry Pi and a touch screen. And in charge of developing the production React web application and Express.js/React dashboard for property managers to customize the guest experience.", "highlight": true},
-            { "key": "minerva", "label": "Minerva Project",  "description": "Created a standalone project to build a collaborative question/answers iframe-able application for students. Collaboration relied on ShareDB, React and Quill.js. I worked closely with their team to make sure the project will be extendable (they added jupyter integration later on) and maintenable (we agreed on database and API structure).", "highlight": true },
-            { "key": "cre", "label": "CRE Simple",  "description": "Put in charge of the React application to manage document workflows for commercial real estate transactions.", "highlight": false },
-            { "key": "nextravel", "label": "Nextravel",  "description": "Built the frontend for the flight search with Typescript." },
-            { "key": "risingteam", "label": "Rising Team",  "description": "Created a React web application to include a flexible workflow mechanism to have ICs and managers take surveys, and aggregate results for the managers backed by a Django backend. It also featured a 1:1 tool and a complex e-mail notification tool.", "highlight": true },
+            { "key": "vmware", "label": "VMware", "description": "Integrated to Workspace One team to work on the Angular frontend on the application grid view and make it mobile friendly." },
+            { "key": "catech", "label": "CA Tech", "description": "Built a React metric palette relying on Material UI to aggregate data from different CA Tech projects under one umbrella. The project was also designed as a library so the different projects would be able to integrate metrics into their own dashboard.", "highlight": false },
+            { "key": "gvg", "label": "GuestViewGuide by NEC", "href": "https://guestviewguide.com/", "description": "Prototyped an interactive frame for vacation rentals guests with a Raspberry Pi and a touch screen. And then put in charge of developing the production React web application for guests and Express.js/React dashboard for property managers to customize the guest experience.", "highlight": true},
+            { "key": "minerva", "label": "Minerva Project", "href": "https://www.minervaproject.com/", "description": "Created a standalone project to build a collaborative question/answers iframe-able application for students. Collaboration relied on ShareDB, React and Quill.js. I worked closely with their team to make sure the project will be extendable (they added jupyter integration later on) and maintenable (we agreed on database and API structure).", "highlight": true },
+            { "key": "cre", "label": "CRE Simple", "href": "https://www.linkedin.com/company/cre-simple", "description": "Put in charge of the React application to manage document workflows for commercial real estate transactions.", "highlight": false },
+            { "key": "nextravel", "label": "Nextravel", "href": "https://www.linkedin.com/company/nextravel", "description": "Built the frontend for the flight search with Typescript." },
+            { "key": "risingteam", "label": "Rising Team", "href": "https://risingteam.com", "description": "Created a React web application to include a flexible workflow mechanism to have ICs and managers take surveys, and aggregate results for the managers backed by a Django backend. It also featured a 1:1 tool and a complex e-mail notification tool.", "highlight": true },
             { "key": "winnebago", "label": "Winnebago",  "description": "Created a proof-of-concept mobile app for electric vehicles built with React Native. The app displays data streamed from the vehicle through Bluetooth and cellular network. It integrates with Azure services to retrieve map, direction and charging station locations." },
-            { "key": "headroom", "label": "Headroom",  "description": "Put in charge of the frontend React application to work alongside their team to add Low Bandwidth HD and Virtual Backgrounds and improved stability and UI quality.", "highlight": true},
-            { "key": "myria", "label": "Myria",  "description": "Help build onboarding process during YC period.", "highlight": true}
+            { "key": "headroom", "label": "Headroom", "href": "https://www.goheadroom.com",  "description": "Put in charge of the frontend React application to work alongside their team to add Low Bandwidth HD and Virtual Backgrounds and improved stability and UI quality relying on WebRTC.", "highlight": true},
+            { "key": "winnebago-aventura", "label": "Winnebago",  "description": "Built a prototype React Native app to show weather along route for RV drivers."},
+            { "key": "myria", "label": "Myria", "href": "https://www.myria.us/", "description": "Integrate YC-backed company to focus on on-boarding and customer requests features using Redwood.js with GraphQL." },
+            { "key": "winnebago-wd", "label": "Winnebago", "description": "Created an React native prototype application to communicate between a vehicle and phone through Bluetooth by writing a JavaScript parser to read CAN messages with a DBC file."},
+            { "key": "future-cards", "label": "Future Cards", "href": "https://future.cards/", "description": "AI-powered brand copilot with Remix and OpenAI "},
+            { "key": "ci-plugins", "label": "Google Checks", "href": "https://checks.google.com/", "description": "Continuious Integration plugins to upload mobile application binaries to Google Checks and interpret their compliance reportsfor Github Action, Bitbucket Pipe (docker and bash scripts), Jenkins (Java), Fastlane (Ruby) and TeamCity (Java)"}
           ],
           "highlight": true
         },
@@ -110,23 +114,23 @@
         {
           "key": "programming",
           "title": "Languages",
-          "value": "Python, Javascript/Typescript and familiar with Go, Java, C#, C, C++"
+          "value": "Python, Javascript/Typescript and familiar with Swift, Go, Ruby, Java, C#"
         },
         {
           "key": "backend",
           "title": "Backend Frameworks",
-          "value": "Django, Flask, Next.js, Express"
+          "value": "Remix, Next.js, Django, Flask, Express"
         },
         {
           "key": "frontend",
           "title": "Frontend Technologies",
-          "value": "React, Redux, d3, tailwind.css, JavaScript/HTML/CSS"
+          "value": "React, Redux, Radix, d3, tailwind.css, JavaScript/HTML/CSS"
         },
-        { "key": "mobile", "title": "Mobile", "value": "React Native, Expo" },
+        { "key": "mobile", "title": "Mobile", "value": "React Native, Expo, Swift UI" },
         {
           "key": "database",
           "title": "Databases",
-          "value": "PostgreSQL, MySQL, MongoDB, Redis"
+          "value": "PostgreSQL, MySQL, sqlite, MongoDB, Redis"
         },
         {
           "key": "cloud",
@@ -149,6 +153,13 @@
           "title": "<strong>Keep it pertinent</strong>",
           "place": "<a href=\"https://keep-it-pertinent.oertel.fr\" target=\"_target\">keep-it-pertinent.oertel.fr</a>",
           "description": "Next.js application to help you go through your Twitter following accounts, and decide to un-follow them or not.",
+          "highlight": false
+        },
+        {
+          "key": "motp",
+          "title": "<strong>Friendly Formula 1 prediction website</strong>",
+          "place": "<a href=\"https://motp.oertel.fr\" target=\"_target\">motp.oertel.fr</a>",
+          "description": "Middle of the Pack is built on Remix with Prisma as ORM and syncing live data through a Cloudfare Worker",
           "highlight": true
         },
         {
@@ -162,20 +173,71 @@
           "key": "ranger",
           "title": "<strong>Ranger Oertel</strong>",
           "place": "<a href=\"http://ranger.oertel.fr\" target=\"_target\">ranger.oertel.fr</a>",
-          "description": "Find who took a photography during a trip in Hawaii."
+          "description": "Find who took a photography during a trip in Hawaii.",
+          "highlight": false
         },
         {
           "key": "travelbook",
           "title": "<strong>Travelbook</strong>",
-          "place": "<a href=\"https://https://book.oertel.fr/\" target=\"_target\">book.oertel.fr</a>",
+          "place": "<a href=\"https://book.oertel.fr/\" target=\"_target\">book.oertel.fr</a>",
           "description": "Relate a journey with spatial and temporal components in a React web application with GPS data extracted directly from photos and display with mapbox map.",
           "highlight": true
         },
         {
           "key": "worldcup",
           "title": "<strong>Football betting website</strong>",
-          "place": "<a href=\"https://football-worldcup-2018.herokuapp.com/\" target=\"_target\">football-worldcup-2018.herokuapp.com</a>",
-          "description": "Friendly betting website for FIFA worldcup 2014, 2018 and UEFA Euro 2012, 2016 and 2020"
+          "place": "<a href=\"https://psykick.app/\" target=\"_target\">psykick.app</a>",
+          "description": "Friendly betting website for FIFA World Cup 2014, 2018, 2022 and UEFA Euro 2012, 2016, 2020 with live scores and automated fixtures update. Built with Remix and Cloudfare Workers to synchronize data. Targeted for mobile usage as a Progressive Web App with Web push notifications.",
+          "highlight": true
+        },
+        {
+          "key": "alternette",
+          "title": "<strong>Alternette</strong>",
+          "place": "<a href=\"https://alternette.vercel.app/\" target=\"_target\">alternette.vercel.app</a>",
+          "description": "RSS feed reader, and playground for ML technologies to help identify similar articles and topics.",
+          "highlight": true
+        },
+        {
+          "key": "calva",
+          "title": "<strong>Calva</strong>",
+          "place": "<a href=\"https://calva.oertel.fr/\" target=\"_target\">calva.oertel.fr</a>",
+          "description": "Calendar focus on today, and tasks to work on",
+          "highlight": true
+        },
+        {
+          "key": "big-brother-gaius",
+          "title": "<strong>Big Brother Gaius</strong>",
+          "place": "<a href=\"https://bigbrothergaius.com/\" target=\"_target\">bigbrothergaius.com</a>",
+          "description": "Baby pool to guess baby features for fun and pride.",
+          "highlight": true
+        },
+        {
+          "key": "ondeck",
+          "title": "<strong>ondeck</strong>",
+          "place": "<a href=\"https://ondeck.up.railway.app\" target=\"_target\">ondeck.up.railway.app</a>",
+          "description": "Kanban project management tool built with django and react single page application.",
+          "highlight": true
+        },
+        {
+          "key": "duration",
+          "title": "<strong>duration</strong>",
+          "place": "<a href=\"https://github.com/boertel/duration\" target=\"_target\">github.com/boertel/duration</a>",
+          "description": "typescript npm package to parse and format duration. Takes milliseconds as input, and displays something like: '1h 2m 3s'",
+          "highlight": true
+        },
+        {
+          "key": "join",
+          "title": "<strong>JOIN</strong>",
+          "place": "<a href=\"https://join.oertel.fr/\" target=\"_target\">join.oertel.fr</a>",
+          "description": "Interactive UI representation of SQL JOINs",
+          "highlight": true
+        },
+        {
+          "key": "gael",
+          "title": "<strong>Gael</strong>",
+          "place": "<a href=\"https://github.com/boertel/gael/\" target=\"_target\">github.com/boertel/gael</a>",
+          "description": "Create a Swift UI app to track baby feeding",
+          "highlight": true
         }
       ]
     },
@@ -221,9 +283,14 @@
           "value": "fluent<span class=\"hidden hide-on-print\"> - <a href=\"#english\">Switch to the English version</a></span>"
         },
         {
-          "key": "",
+          "key": "spanish",
+          "title": "Spanish",
+          "value": "learning"
+        },
+        {
+          "key": "german",
           "title": "German",
-          "value": "knowledge (studied for 9 years)"
+          "value": "knowledge (studied for 9 years at school)"
         }
       ]
     }
