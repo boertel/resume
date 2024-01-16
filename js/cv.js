@@ -109,14 +109,8 @@ function load_json() {
           }
 
           if (experience.value) {
-            const highlights = qs.getAll(experience.key);
             experience.value = experience.value.filter(function (v) {
-              if (highlights.length) {
-                return highlights.includes(v.key);
-              } else {
-                return true;
-                //return v.highlight;
-              }
+              return v.highlight;
             });
           }
         });

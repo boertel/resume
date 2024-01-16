@@ -10,7 +10,7 @@
 <body>
 
 <main>
-    <header id="header" class="clearfix"></header>
+    <header id="header"></header>
 
     <section id="personal"></section>
 
@@ -59,7 +59,10 @@
             {{#experience}}
                 <li class="experience{{^value.length}} small{{/value.length}}" {{#key}}id="{{key}}"{{/key}}>
                     <div class="header">
-                        <div class="title">{{{title}}},&nbsp;{{{place}}}</div>
+                        <div class="title">
+                            <div>{{{title}}},</div>
+                            <div>{{{place}}}</div>
+                        </div>
                         {{#date}}
                         <div class="date" title="{{date.duration}}">{{ date.start }} to {{ date.end }}</div>
                         {{/date}}
@@ -73,17 +76,16 @@
                     {{#value.length}}
                     <ul class="value">
                     {{#value}}
-                        <li class="{{#hidden}}subtle{{/hidden}}">{{#href}}<a href="{{href}}" target="_blank">{{/href}}{{#label}}<em>{{ label }}</em>: {{/label}}{{#href}}</a>{{/href}}{{description}}</li>
+                        <li class="{{#hidden}}subtle{{/hidden}}">{{#label}}<em>{{#href}}<a href="{{{href}}}" target="_blank">{{/href}}{{ label }}{{#href}}</a>:</em> {{/href}}{{/label}} {{{description}}}</li>
                     {{/value}}
                     </ul>
                     {{/value.length}}
                 </li>
             {{/experience}}
             {{#skill}}
-                <li class="skill clearfix"{{#key}} id="{{key}}"{{/key}}>
+                <li class="skill"{{#key}} id="{{key}}"{{/key}}>
                     {{#title}}
-                    <div class="title"><em>{{title}}</em></div>
-                    <div class="separator">:</div>
+                    <div class="title"><em>{{title}}</em><span>:</span></div>
                     {{/title}}
                     <div class="value">
                     {{{value}}}

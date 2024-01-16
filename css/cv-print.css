@@ -1,8 +1,13 @@
+body,
+table,
+a {
+  font-size: 13px;
+}
+
 body {
   background: none;
   margin: 0;
   padding: 0;
-  font-size: 13px;
 }
 
 @page {
@@ -15,9 +20,16 @@ main {
   padding-top: 0;
   padding-bottom: 0;
 }
+.experience a {
+  color: #000;
+}
 
 header {
   margin-bottom: 0.5em;
+}
+
+.category.professional a::after {
+  content: " – " attr(href) "";
 }
 
 #personal {
@@ -39,12 +51,5 @@ header {
   display: block;
 }
 .hide-on-print {
-  display: none;
-}
-
-.category.education {
-  margin-bottom: 0;
-}
-.category.language {
   display: none;
 }
