@@ -126,7 +126,7 @@
                 "key": "headroom",
                 "label": "Headroom",
                 "href": "https://www.goheadroom.com",
-                "description": "Put in charge of the frontend React application to work alongside their team to add features such as Low Bandwidth HD and Virtual Backgrounds. And also improved stability and UI quality.",
+                "description": "Put in charge of the frontend React application to work alongside their team on a video conference webapp to add features such as Low Bandwidth HD and Virtual Backgrounds. I was also task to improve stability and UI quality.",
                 "highlight": true
             },
             {
@@ -139,21 +139,21 @@
                 "key": "myria",
                 "label": "Myria",
                 "href": "https://www.myria.us",
-                "description": "Integrate YC-backed company to focus on customer and on-boarding and customer requests features using Redwood.js with GraphQL.",
+                "description": "Integrate an YC-backed company building a concierge platform. I was tasked to focus on customers and agents on-boarding, requests management between the different parties, and marketing website using Redwood.js with GraphQL.",
                 "highlight": true
             },
             {
                 "key": "winnebago-wd",
                 "label": "Winnebago",
                 "href": "",
-                "description": "Created a React Native application to communicate with a vehicle through Bluetooth BLE. by writing a JavaScript parser to read CAN messages with a DBC file.",
+                "description": "Created a React Native application to communicate with a vehicle through Bluetooth BLE. It was achieved by writing a JavaScript parser to read CAN messages (binary format).",
                 "highlight": true
             },
             {
                 "key": "future-cards",
                 "label": "Future Cards",
                 "href": "https://future.cards",
-                "description": "Built from scratch an AI-powered brand walkthrough questionnaire with Remix and OpenAI in collaboration with <a href=\"https://www.punk.works/\">Punk Works</a>.",
+                "description": "Built from scratch an AI-powered brand copilot in collaboration with <a href=\"https://www.punk.works/\">Punk Works</a>. It is built with Remix and OpenAI.",
                 "highlight": true
             },
             {
