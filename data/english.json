@@ -103,6 +103,12 @@
                 "highlight": false
             },
             {
+                "key": "embarq",
+                "label": "Embarq (internal)",
+                "description": "",
+                "highlight": false
+            },
+            {
                 "key": "risingteam",
                 "label": "Rising Team",
                 "href": "https://risingteam.com",
@@ -173,9 +179,9 @@
             "start": "2011-03-01",
             "end": "2015-03-31"
           },
-          "title": "<strong>Software Engineer</strong>",
+          "title": "<strong>Fullstack Software Engineer</strong>",
           "place": "<a href=\"https://www.crunchbase.com/organization/punchtab\">PunchTab</a>, <em>Palo Alto, CA, USA</em>",
-          "description": "Employee number 1 at an early-stage startup to build an omni-channel loyalty and engagement platform.",
+          "description": "Employee number 1 at an early-stage startup to build an omni-channel loyalty and engagement platform. Worked on a Django backend and jQuery then Angular frontend. Responsabilities ranged from devops to customer support.",
           "value": [
             { "description": "Designed APIs to manage loyalty program mechanisms (leaderboard, points, rewards)", "highlight": true},
             { "description": "Created a third-party Javascript library for cross domain iframe communications that have been installed on over 10K websites with a reach of 25M users", "highlight": true},
