@@ -357,25 +357,23 @@
         {
           "key": "erasmus",
           "strdate": "Fall 2010",
-          "href": "https://lnu.se/en/",
           "title": "<strong>One semester in Sweden, Erasmus Program</strong>",
-          "place": "<em>Linnæus University, Växjö, Sweden</em>",
+          "place": "<em><a href=\"https://lnu.se/en/\" target=\"_blank\">Linnæus University</a>, Växjö, Sweden</em>",
           "highlight": true
         },
         {
           "key": "polytech",
           "strdate": "2008 - 2011",
-          "href": "https://polytech.univ-nantes.fr/en",
           "title": "<strong>Master of Engineering in Computer Science</strong>",
-          "place": "<em>Polytechnic School of Nantes University, France</em>",
+          "place": "<em><a href=\"https://polytech.univ-nantes.fr/en\" target=\"_blank\">Polytechnic School of Nantes University</a>, France</em>",
           "highlight": true
         },
         {
           "key": "iut",
           "strdate": "2006 - 2008",
-          "href": "https://iutnantes.univ-nantes.fr/formations/bachelor-iut-bac3/but-info",
+          "href": "",
           "title": "<strong>Two-year degree in Computer Science</strong>",
-          "place": "<em>University Institute of Technology, Nantes, France</em>",
+          "place": "<em><a href=\"https://iutnantes.univ-nantes.fr/formations/bachelor-iut-bac3/but-info\" target=\"_blank\">University Institute of Technology</a>, Nantes, France</em>",
           "highlight": true
         }
       ]
