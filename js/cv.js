@@ -72,9 +72,14 @@ function load_json() {
             return true;
           } else if (toInclude[experience.key]) {
             if (experience.value) {
-              experience.value = experience.value.filter(function (v) {
-                return toInclude[experience.key].includes(v.key);
-              });
+              experience.value = experience.value
+                .filter(function (v) {
+                  return toInclude[experience.key].includes(v.key);
+                })
+                .map((v) => ({
+                  ...v,
+                  highlight: true,
+                }));
             }
             return true;
           } else if (!Object.keys(toInclude).length) {
@@ -93,7 +98,7 @@ function load_json() {
               experience.date.start = getMonth(date.start);
             } else {
               experience.date.start = `${getMonth(
-                date.start
+                date.start,
               )} ${date.start.getFullYear()}`;
             }
             experience.date.end = experience.date.end
