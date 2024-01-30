@@ -4,8 +4,14 @@
   "name": "Benjamin Oertel",
   "personal": {
     "contact": [
-      { "key": "live", "value": "San Francisco, CA, USA" },
-      { "key": "", "value": "+1 (650) 739-6361" },
+      {
+        "key": "live",
+        "value": "San Francisco, CA, USA"
+      },
+      {
+        "key": "",
+        "value": "+1 (650) 739-6361"
+      },
       {
         "key": "email",
         "value": "<a href=\"mailto:benjamin.oertel@gmail.com?subject=Hi\">benjamin.oertel@gmail.com</a>"
@@ -44,131 +50,133 @@
           "description": "Partner in a design and development agency working for companies going from startups to Fortune 500 companies. Projects range from proof-of-concepts to production applications. I am in charge of a small team of engineers. Also involved in the sales process to explain our capabitilies and defined the projects' requirements.",
           "value": [
             {
-                "key": "hightail",
-                "label": "Hightail",
-                "href": "https://www.hightail.com",
-                "description": "Built an Angular analytics dashboard for Hightail Space with charts to show health and activity of a workspace.",
-                "highlight": false
+              "key": "hightail",
+              "label": "Hightail",
+              "href": "https://www.hightail.com",
+              "description": "Built an Angular analytics dashboard for Hightail Space with charts to show health and activity of a workspace.",
+              "highlight": false
             },
             {
-                "key": "witwik",
-                "label": "witwik (internal)",
-                "description": "Created an React Native mobile app to share locations with co-workers backed with Django backend and Express.js microservices for photo uploads and push notifications." ,
-                "highlight": false
+              "key": "witwik",
+              "label": "witwik (internal)",
+              "description": "Created an React Native mobile app to share locations with co-workers backed with Django backend and Express.js microservices for photo uploads and push notifications.",
+              "highlight": false
             },
             {
-                "key": "color-picker",
-                "label": "Color Picker (internal)",
-                "description": "Designed a physical color picker built with Python Tornado for realtime and hosted on a Raspberry Pi.",
-                "highlight": false
+              "key": "color-picker",
+              "label": "Color Picker (internal)",
+              "description": "Designed a physical color picker built with Python Tornado for realtime and hosted on a Raspberry Pi.",
+              "highlight": false
             },
             {
-                "key": "vmware",
-                "label": "VMware",
-                "description": "Integrated to Workspace One team to work on the Angular frontend on the application grid view and make it mobile friendly.",
-                "highlight": false
+              "key": "vmware",
+              "label": "VMware",
+              "href": "https://www.vmware.com/products/workspace-one.html",
+              "description": "Integrated to Workspace One team to work on the Angular frontend on the application grid view and make it mobile friendly.",
+              "highlight": false
             },
             {
-                "key": "catech",
-                "label": "CA Tech",
-                "description": "Built a React metric palette relying on Material UI to aggregate data from different CA Tech projects under one umbrella. The project was also designed as a library so the different projects would be able to integrate metrics into their own dashboard.",
-                "highlight": false
+              "key": "catech",
+              "label": "CA Tech",
+              "href": "https://en.wikipedia.org/wiki/CA_Technologies",
+              "description": "Built a React metric palette relying on Material UI to aggregate data from different CA Tech projects under one umbrella. The project was also designed as a library so the different projects would be able to integrate metrics into their own dashboard.",
+              "highlight": false
             },
             {
-                "key": "gvg",
-                "label": "GuestViewGuide by NEC",
-                "href": "https://guestviewguide.com",
-                "description": "Prototyped an interactive frame for vacation rentals guests with a Raspberry Pi and a touch screen. And then put in charge of developing the production React web application for guests and Express.js/React dashboard for property managers to customize the guest experience.",
-                "highlight": false
+              "key": "gvg",
+              "label": "GuestViewGuide by NEC",
+              "href": "https://guestviewguide.com",
+              "description": "Prototyped an interactive frame for vacation rentals guests with a Raspberry Pi and a touch screen. And then put in charge of developing the production React web application for guests and Express.js/React dashboard for property managers to customize the guest experience.",
+              "highlight": false
             },
             {
-                "key": "minerva",
-                "label": "Minerva Project",
-                "href": "https://www.minervaproject.com",
-                "description": "Created a standalone project to build a collaborative question/answers iframe-able application for students. Collaboration relied on ShareDB, React and Quill.js. I worked closely with their team to make sure the project will be extendable (they added jupyter integration later on) and maintenable (we agreed on database and API structure).",
-                "highlight": true
+              "key": "minerva",
+              "label": "Minerva Project",
+              "href": "https://www.minervaproject.com",
+              "description": "Created a standalone project to build a collaborative question/answers iframe-able application for students. Collaboration relied on ShareDB, React and Quill.js. I worked closely with their team to make sure the project will be extendable (they added jupyter integration later on) and maintenable (we agreed on database and API structure).",
+              "highlight": true
             },
             {
-                "key": "cre",
-                "label": "CRE Simple",
-                "href": "https://www.linkedin.com/company/cre-simple",
-                "description": "Put in charge of the React application to manage document workflows for commercial real estate transactions.",
-                "highlight": false
+              "key": "cre",
+              "label": "CRE Simple",
+              "href": "https://www.linkedin.com/company/cre-simple",
+              "description": "Put in charge of the React application to manage document workflows for commercial real estate transactions.",
+              "highlight": false
             },
             {
-                "key": "nextravel",
-                "label": "Nextravel",
-                "href": "https://www.linkedin.com/company/nextravel",
-                "description": "Built the frontend for the flight search with Typescript.",
-                "highlight": false
+              "key": "nextravel",
+              "label": "Nextravel",
+              "href": "https://www.linkedin.com/company/nextravel",
+              "description": "Built the frontend for the flight search with Typescript.",
+              "highlight": false
             },
             {
-                "key": "embarq",
-                "label": "Embarq (internal)",
-                "description": "",
-                "highlight": false
+              "key": "embarq",
+              "label": "Embarq (internal)",
+              "description": "",
+              "highlight": false
             },
             {
-                "key": "risingteam",
-                "label": "Rising Team",
-                "href": "https://risingteam.com",
-                "description": "Created a React web application to include a flexible workflow mechanism to have ICs and managers take surveys, and aggregate results for the managers backed by a Django backend. It also featured a 1:1 tool and a complex e-mail notification tool.",
-                "highlight": true
+              "key": "risingteam",
+              "label": "Rising Team",
+              "href": "https://risingteam.com",
+              "description": "Created a React web application to include a flexible workflow mechanism to have ICs and managers take surveys, and aggregate results for the managers backed by a Django backend. It also featured a 1:1 tool and a complex e-mail notification tool.",
+              "highlight": true
             },
             {
-                "key": "winnebago",
-                "label": "Winnebago",
-                "href": "https://www.comediadesign.com/work/winnebago",
-                "description": "Created a proof-of-concept mobile app for electric vehicles built with React Native. The app displays CAN data streamed from the vehicle through Bluetooth and/or cellular network. It integrates with Azure services to retrieve map, direction and charging station locations.",
-                "highlight": true
+              "key": "winnebago",
+              "label": "Winnebago",
+              "href": "https://www.comediadesign.com/work/winnebago",
+              "description": "Created a proof-of-concept mobile app for electric vehicles built with React Native. The app displays CAN data streamed from the vehicle through Bluetooth and/or cellular network. It integrates with Azure services to retrieve map, direction and charging station locations.",
+              "highlight": true
             },
             {
-                "key": "headroom",
-                "label": "Headroom",
-                "href": "https://www.goheadroom.com",
-                "description": "Put in charge of the frontend React application to work alongside their team on a video conference webapp to add features such as Low Bandwidth HD and Virtual Backgrounds. I was also task to improve stability and UI quality.",
-                "highlight": true
+              "key": "headroom",
+              "label": "Headroom",
+              "href": "https://www.goheadroom.com",
+              "description": "Put in charge of the frontend React application to work alongside their team on a video conference webapp to add features such as Low Bandwidth HD and Virtual Backgrounds. I was also task to improve stability and UI quality.",
+              "highlight": true
             },
             {
-                "key": "winnebago-aventura",
-                "label": "Winnebago",
-                "description": "Built a prototype React Native app to show weather along route for RV drivers.",
-                "highlight": false
+              "key": "winnebago-aventura",
+              "label": "Winnebago",
+              "description": "Built a prototype React Native app to show weather along route for RV drivers.",
+              "highlight": false
             },
             {
-                "key": "myria",
-                "label": "Myria",
-                "href": "https://www.myria.us",
-                "description": "Integrate an YC-backed company building a concierge platform. I was tasked to focus on customers and agents on-boarding, requests management between the different parties, and marketing website using Redwood.js with GraphQL.",
-                "highlight": true
+              "key": "myria",
+              "label": "Myria",
+              "href": "https://www.myria.us",
+              "description": "Integrate an YC-backed company building a concierge platform. I was tasked to focus on customers and agents on-boarding, requests management between the different parties, and marketing website using Redwood.js with GraphQL.",
+              "highlight": true
             },
             {
-                "key": "winnebago-wd",
-                "label": "Winnebago",
-                "href": "",
-                "description": "Created a React Native application to communicate with a vehicle through Bluetooth BLE. It was achieved by writing a JavaScript parser to read CAN messages (binary format).",
-                "highlight": true
+              "key": "winnebago-wd",
+              "label": "Winnebago",
+              "href": "",
+              "description": "Created a React Native application to communicate with a vehicle through Bluetooth BLE. It was achieved by writing a JavaScript parser to read CAN messages (binary format).",
+              "highlight": true
             },
             {
-                "key": "future-cards",
-                "label": "Future Cards",
-                "href": "https://future.cards",
-                "description": "Built from scratch an AI-powered brand copilot in collaboration with <a href=\"https://www.punk.works/\">Punk Works</a>. It is built with Remix and OpenAI.",
-                "highlight": true
+              "key": "future-cards",
+              "label": "Future Cards",
+              "href": "https://future.cards",
+              "description": "Built from scratch an AI-powered brand copilot in collaboration with <a href=\"https://www.punk.works/\">Punk Works</a>. It is built with Remix and OpenAI.",
+              "highlight": true
             },
             {
-                "key": "ci-plugins",
-                "label": "Google Checks",
-                "href": "https://checks.google.com",
-                "description": "Wrote Continuious Integration plugins to upload mobile application binaries to Google Checks and interpret their compliance reports for Github Action, Bitbucket Pipe (docker and bash scripts), Jenkins (Java), Fastlane (Ruby) and TeamCity (Java)",
-                "highlight": true
+              "key": "ci-plugins",
+              "label": "Google Checks",
+              "href": "https://checks.google.com",
+              "description": "Wrote Continuious Integration plugins to upload mobile application binaries to Google Checks and interpret their compliance reports for Github Action, Bitbucket Pipe (docker and bash scripts), Jenkins (Java), Fastlane (Ruby) and TeamCity (Java)",
+              "highlight": true
             },
             {
-                "key": "aerial",
-                "label": "aerial (internal)",
-                "href": "https://getaerial.vercel.app",
-                "description": "Remix application designed for agency workflow to manage projects. It enables to track high level requirements, project status, and weekly reports to clients.",
-                "highlight": true
+              "key": "aerial",
+              "label": "aerial (internal)",
+              "href": "https://getaerial.vercel.app",
+              "description": "Remix application designed for agency workflow to manage projects. It enables to track high level requirements, project status, and weekly reports to clients.",
+              "highlight": true
             }
           ],
           "highlight": true
@@ -183,11 +191,26 @@
           "place": "<a href=\"https://ben.oertel.fr/goto/punchtab\">PunchTab</a>, <em>Palo Alto, CA, USA</em>",
           "description": "Employee number 1 at an early-stage startup to build an omni-channel loyalty and engagement platform. Worked on a Django backend and jQuery then Angular frontend. Responsabilities ranged from devops to customer support.",
           "value": [
-            { "description": "Designed APIs to manage loyalty program mechanisms (leaderboard, points, rewards)", "highlight": true},
-            { "description": "Created a third-party Javascript library for cross domain iframe communications that have been installed on over 10K websites with a reach of 25M users", "highlight": true},
-            { "description": "Developed an efficient system to capture, store and manipulate third party user data (Facebook, Twitter, Instagram, Shopify)", "highlight": true},
-            { "description": "Engineered a Content Management System to create promotional campaigns handling configuration and design customizations", "highlight": false},
-            { "description": "Built internal developer tools: custom front-end framework, deployment bot and abnormal behavior monitoring", "highlight": true}
+            {
+              "description": "Designed APIs to manage loyalty program mechanisms (leaderboard, points, rewards)",
+              "highlight": true
+            },
+            {
+              "description": "Created a third-party Javascript library for cross domain iframe communications that have been installed on over 10K websites with a reach of 25M users",
+              "highlight": true
+            },
+            {
+              "description": "Developed an efficient system to capture, store and manipulate third party user data (Facebook, Twitter, Instagram, Shopify)",
+              "highlight": true
+            },
+            {
+              "description": "Engineered a Content Management System to create promotional campaigns handling configuration and design customizations",
+              "highlight": false
+            },
+            {
+              "description": "Built internal developer tools: custom front-end framework, deployment bot and abnormal behavior monitoring",
+              "highlight": true
+            }
           ],
           "highlight": true
         },
@@ -234,7 +257,11 @@
           "title": "Frontend Technologies",
           "value": "React, Redux, Radix, d3, tailwind.css, JavaScript/HTML/CSS"
         },
-        { "key": "mobile", "title": "Mobile", "value": "React Native, Expo, Swift UI" },
+        {
+          "key": "mobile",
+          "title": "Mobile",
+          "value": "React Native, Expo, Swift UI"
+        },
         {
           "key": "database",
           "title": "Databases",
@@ -270,7 +297,6 @@
           "description": "Middle of the Pack is built on Remix with Prisma as ORM and syncing live data through a Cloudfare Worker",
           "highlight": false
         },
-        
         {
           "key": "ranger",
           "title": "<strong>Ranger Oertel</strong>",
